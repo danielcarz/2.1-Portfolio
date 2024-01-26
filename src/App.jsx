@@ -4,6 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 //routes
 import { AppRoutes } from './Routes/AppRoutes';
 
+//styles
+import './Sass/Apps.scss';
+
 
 
 

@@ -105,7 +105,20 @@
 
 
 .navbar{
-  
+
+    .nav-item{
+        text-decoration: none;
+
+        color: black;
+
+        .active{
+            color: rgb(74, 240, 8);
+        }
+      
+        
+        
+    };
+    
 
   @include media-query($media_phone){
     @include styles_phone();

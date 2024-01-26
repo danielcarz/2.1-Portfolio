@@ -16,7 +16,7 @@ export const Navbar = () => {
 
     return (
         <nav className='navbar' >
-            <Link to= "/" > HOME </Link>
+            <Link className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` } to= "/" > HOME </Link>
 
           
 
