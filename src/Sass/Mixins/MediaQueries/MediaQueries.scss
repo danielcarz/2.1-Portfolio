@@ -6,7 +6,7 @@ SECTION TO DEFINE THE WIDTH OF THE SCREEN:
   $ancho-tablet: 820px;
   $ancho-computadora: 1024px; 
 
-*/
+*/ 
 
 @mixin media-query($tamaño-pantalla) {
     // Define los tamaños de pantalla para teléfonos, tablets y computadoras
