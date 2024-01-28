@@ -3,16 +3,16 @@ import React from "react";
 //styles
 import '../../../Sass/SassComponents/SassChildComponents/1.2-ChildWelcomeAside.scss';
 
+//ui Components
+import { CarouselUI } from '../../UiComponentes/index.js';
+
 export const ChildWelcomeAside = () => {
 
 
     return(
         <section className="welcomeAsideWrapper" >
-            <h1>welcome</h1>
-
-            <div>
-                
-            </div>
+            
+            <CarouselUI></CarouselUI>
         </section>
     )
 }
