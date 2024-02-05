@@ -12,14 +12,25 @@
   
   @mixin styles_tablets () {
     
-    width: 40%;
-  
-      
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+
+      width: 300px;
+      height: 300px;
+    }
+
+
+
     
   
-    
-    
-    border: 1px solid blue;
+
+    border: 1px solid rgb(25, 0, 255);
+
   }
   
   @mixin styles_desktop () {
