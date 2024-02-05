@@ -7,8 +7,16 @@ export const CardUI = () => {
 
 
     return(
-        <section >
-            <h1>this is card ui</h1>
+        <section className="card">
+            <figure>
+                <img
+                    src=""
+                    alt="image_project"
+                
+                >
+                    
+                </img>
+            </figure>
         </section>
     )
 } 

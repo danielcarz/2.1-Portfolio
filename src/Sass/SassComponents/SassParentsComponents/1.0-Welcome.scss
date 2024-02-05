@@ -24,12 +24,13 @@
   
   @mixin styles_desktop () {
     width: 100%;
+    height: auto;
 
     display: flex;
     justify-content: space-around;
     
     color: red;
-    border: 1px solid red;
+    border: 1px solid rgb(204, 0, 255);
   }
   
   

@@ -1,40 +1,53 @@
 //VARIABLES (it musb be in the first position)
-@use '../Mixins/Variables.scss' as *;
+@use '../../Mixins/Variables.scss' as *;
 
 //MEDIA
-@import '../Mixins/MediaQueries/MediaQueries.scss';
+@import '../../Mixins/MediaQueries/MediaQueries.scss';
 
 
 @mixin styles_phone () {
-    color: yellow;
     border: 1px solid yellow;
+
+    grid-template-columns: 1fr;
     
   }
   
   @mixin styles_tablets () {
-    width: 100%;
-    height: auto;
     
-    color: blue;
+    width: 40%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 3 columnas en el escritorio
+    gap: 20px;
+  
+      
+    
+  
+    
+    
     border: 1px solid blue;
   }
   
   @mixin styles_desktop () {
-    width: 100%;
+  
+        width: 100%;
 
-    height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); // 3 columnas en el escritorio
+        gap: 20px;
+  
+      
     
-    
-    border: 1px solid rgb(42, 224, 6);
+  
+      border: 1px solid red;
+  
+     
   }
   
   
   
   
-  .Pageone{
-
-    padding: 0;
-    margin: 0;
+  .CardWrapper{
     
   
     @include media-query($media_phone){
