@@ -1,9 +1,14 @@
 import React from "react";
 
+//child Component
+import { ChildMyProjectCards } from './ChildsComponents/2.1-ChildMyProjectCards';
+
 export const MyProjects = () => {
 
 
     return(
-        <h1>MyProject component</h1>
+        <section>
+            <ChildMyProjectCards></ChildMyProjectCards>
+        </section>
     )
 } 

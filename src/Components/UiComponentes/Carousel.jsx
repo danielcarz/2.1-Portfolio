@@ -11,7 +11,7 @@ import '../../Sass/SassComponents/UiComponents/Carousel.scss';
 
 export const  CarouselUI =  () =>  {
     return ( 
-    
+     
         
 
         <Carousel data-bs-theme="dark"  className="carouselContainer w-100 d-flex align-items-center">
