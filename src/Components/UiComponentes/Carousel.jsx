@@ -1,18 +1,19 @@
-import Badge from 'react-bootstrap/Badge';
-import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
-
 import Carousel from 'react-bootstrap/Carousel';
-//import ExampleCarouselImage from 'components/ExampleCarouselImage';
+
+//assets
+import giftResponsive from '../../public/assets/responsive.gif';
+
+//styles
+import '../../Sass/SassComponents/UiComponents/Carousel.scss';
 
 
 
 export const  CarouselUI =  () =>  {
-    return (
+    return ( 
     
         
 
-        <Carousel data-bs-theme="dark"  className="carouselContainer w-25">
+        <Carousel data-bs-theme="dark"  className="carouselContainer w-100 d-flex align-items-center">
           
            
 
@@ -22,8 +23,8 @@ export const  CarouselUI =  () =>  {
 
                 <img
                   className="image"
-                  style={{ width: '100px', height: '100px' }}
-                 /*  src= { gifResponsive } */
+                  style={{ width: '200px', height: '200px' }} 
+                  src= { giftResponsive } 
                   alt="First slide"
                 />
 
@@ -42,7 +43,7 @@ export const  CarouselUI =  () =>  {
                   <img
                     className="image"
                     style={{ width: '100px', height: '100px' }}
-                   /*  src= { gifResponsive } */
+                    src= { giftResponsive }
                     alt="First slide"
                   />
 

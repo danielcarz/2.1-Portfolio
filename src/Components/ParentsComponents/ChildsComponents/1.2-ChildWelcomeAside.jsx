@@ -6,7 +6,7 @@ import '../../../Sass/SassComponents/SassChildComponents/1.2-ChildWelcomeAside.s
 //ui Components
 import { CarouselUI } from '../../UiComponentes/index.js';
 
-export const ChildWelcomeAside = () => {
+export const ChildWelcomeAside = () => { 
 
 
     return(
