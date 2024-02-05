@@ -3,20 +3,23 @@ import React from "react";
 //styles
 import '../../Sass/SassComponents/UiComponents/Cards.scss';
 
+//images
+import giftSmartPhone from '../../public/assets/smartphone.gif'
+
 export const CardUI = () => {
 
 
     return(
-        <section className="card">
-            <figure>
+        
+            <figure className="card">
                 <img
-                    src=""
+                    src={ giftSmartPhone }
                     alt="image_project"
                 
                 >
                     
                 </img>
             </figure>
-        </section>
+       
     )
 } 

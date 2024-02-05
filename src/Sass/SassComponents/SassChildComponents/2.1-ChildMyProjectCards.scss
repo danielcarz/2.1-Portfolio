@@ -16,16 +16,18 @@
     
     width: 40%;
 
+    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr); // 3 columnas en el escritorio
     gap: 20px;
   
       
     
-  
+   
     
     
-    border: 1px solid blue;
+    border: 6px solid blue;
   }
   
   @mixin styles_desktop () {
@@ -33,8 +35,11 @@
         width: 100%;
 
         display: grid;
-        grid-template-columns: repeat(3, 1fr); // 3 columnas en el escritorio
+        //grid-template-columns: repeat(3, 1fr); // 3 columnas en el escritorio
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
         gap: 20px;
+
+        padding: 20px;
   
       
     
