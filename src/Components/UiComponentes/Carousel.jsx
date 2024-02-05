@@ -1,7 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 //assets
-import giftResponsive from '../../public/assets/responsive.gif';
+import giftResponsive from '../../public/assets/responsive-design.gif';
+import giftSmartPhone from '../../public/assets/smartphone.gif'
 
 //styles
 import '../../Sass/SassComponents/UiComponents/Carousel.scss';
@@ -44,7 +45,7 @@ export const  CarouselUI =  () =>  {
                 <img
                   className="image"
                   style={{ width: '130px', height: '130px' }} 
-                  src= { giftResponsive } 
+                  src= { giftSmartPhone } 
                   alt="First slide"
                 />
 
