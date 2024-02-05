@@ -23,7 +23,7 @@ export const  CarouselUI =  () =>  {
 
                 <img
                   className="image"
-                  style={{ width: '200px', height: '200px' }} 
+                  style={{ width: '130px', height: '130px' }} 
                   src= { giftResponsive } 
                   alt="First slide"
                 />
@@ -38,23 +38,26 @@ export const  CarouselUI =  () =>  {
             </Carousel.Item>
 
             <Carousel.Item className="custom-carousel-item">
+              
               <figure  className="figureWrapper">
 
-                  <img
-                    className="image"
-                    style={{ width: '100px', height: '100px' }}
-                    src= { giftResponsive }
-                    alt="First slide"
-                  />
+                <img
+                  className="image"
+                  style={{ width: '130px', height: '130px' }} 
+                  src= { giftResponsive } 
+                  alt="First slide"
+                />
 
             
               
-                  <Carousel.Caption className="aboutTech">
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </Carousel.Caption>
+                <Carousel.Caption className="aboutTech">
+                  <h5>First slide label</h5>
+                  <p>Garantizo experiencias óptimas en todos los dispositivos, ofreciendo consistencia y accesibilidad para cada usuario.</p>
+                </Carousel.Caption>
               </figure>
             </Carousel.Item>
+
+           
 
           
 
