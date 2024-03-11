@@ -10,13 +10,12 @@ export const ChildMyProjectCards = () => {
 
 
     return(
-        <section className="CardWrapper">
+        <>
+        
             <CardUI></CardUI>
-            <CardUI></CardUI>
-            <CardUI></CardUI>
-            <CardUI></CardUI>
-            <CardUI></CardUI>
-            <CardUI></CardUI>
-        </section>
+        
+        </>
+            
+       
     )
 } 

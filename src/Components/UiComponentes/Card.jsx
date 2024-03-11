@@ -10,7 +10,10 @@ export const CardUI = () => {
 
 
     return(
-        
+
+        <section className="cardsWrapper" >
+
+
             <figure className="card">
                 <img
                     src={ giftSmartPhone }
@@ -19,7 +22,93 @@ export const CardUI = () => {
                 >
                     
                 </img>
+
+                <section>
+                    <h2>tittle project</h2>
+                    <p>subtittle project</p>
+                </section>
             </figure>
+
+            <figure className="card">
+                <img
+                    src={ giftSmartPhone }
+                    alt="image_project"
+                
+                >
+                    
+                </img>
+
+                <section>
+                    <h2>tittle project</h2>
+                    <p>subtittle project</p>
+                </section>
+            </figure>
+
+            <figure className="card">
+                <img
+                    src={ giftSmartPhone }
+                    alt="image_project"
+                
+                >
+                    
+                </img>
+
+                <section>
+                    <h2>tittle project</h2>
+                    <p>subtittle project</p>
+                </section>
+            </figure>
+
+            <figure className="card">
+                <img
+                    src={ giftSmartPhone }
+                    alt="image_project"
+                
+                >
+                    
+                </img>
+
+                <section>
+                    <h2>tittle project</h2>
+                    <p>subtittle project</p>
+                </section>
+            </figure>
+
+            <figure className="card">
+                <img
+                    src={ giftSmartPhone }
+                    alt="image_project"
+                
+                >
+                    
+                </img>
+
+                <section>
+                    <h2>tittle project</h2>
+                    <p>subtittle project</p>
+                </section>
+            </figure>
+
+            <figure className="card">
+                <img
+                    src={ giftSmartPhone }
+                    alt="image_project"
+                
+                >
+                    
+                </img>
+
+                <section>
+                    <h2>tittle project</h2>
+                    <p>subtittle project</p>
+                </section>
+            </figure>
+
+
+        </section>
+        
+
+            
        
     )
 } 

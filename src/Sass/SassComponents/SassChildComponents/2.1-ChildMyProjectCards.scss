@@ -33,17 +33,6 @@
   
         width: 100%;
 
-        display: grid;
-        //grid-template-columns: repeat(3, 1fr); // 3 columnas en el escritorio
-        grid-template-columns: repeat(3, minmax(100px, 1fr));
-        gap: 20px;
-
-        padding: 20px;
-  
-      
-    
-  
-      border: 1px solid red;
   
      
   }
@@ -52,6 +41,7 @@
   
   
   .CardWrapper{
+    
     
   
     @include media-query($media_phone){
