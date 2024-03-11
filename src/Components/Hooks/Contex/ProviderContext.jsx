@@ -1,9 +1,16 @@
 import { Contex } from "./CreateContext";
 
-export const ContextProvider = () => {
+//custom hook
+import { useGetImage } from '../CustomHooks/index';
+
+export const ContextProvider = ( { children } ) => {
+
+    //images Projects
+    const { weatherImage } = useGetImage();
+   
 
     return(
 
-        <Contex.Provider value={ {  } } ></Contex.Provider>
+        <Contex.Provider value={ { weatherImage } } > { children } </Contex.Provider>
     )
 }

@@ -6,7 +6,7 @@ import '../../Sass/SassComponents/UiComponents/Cards.scss';
 //images
 import giftSmartPhone from '../../public/assets/smartphone.gif'
 
-export const CardUI = () => {
+export const CardUI = ( { weatherImage } ) => {
 
 
     return(
@@ -16,7 +16,7 @@ export const CardUI = () => {
 
             <figure className="card">
                 <img
-                    src={ giftSmartPhone }
+                    src={ weatherImage }
                     alt="image_project"
                 
                 >
