@@ -5,9 +5,6 @@ import Carousel from 'react-bootstrap/Carousel';
 //context
 import { Contex } from '../Hooks/Contex/CreateContext';
 
-//assets
-import giftResponsive from '../../public/assets/responsive-design.gif';
-import giftSmartPhone from '../../public/assets/smartphone.gif'
 
 //styles
 import '../../Sass/SassComponents/UiComponents/Carousel.scss';
@@ -16,10 +13,10 @@ import '../../Sass/SassComponents/UiComponents/Carousel.scss';
 
 export const  CarouselUI =  () =>  {
 
-    const { nodeImage } = useContext( Contex );
+    const { nodeImage, maintenanceImage, giftResponsive } = useContext( Contex );
  
 
-    return ( 
+    return (  
      
         
 
@@ -27,38 +24,6 @@ export const  CarouselUI =  () =>  {
           
            
 
-            <Carousel.Item className="custom-carousel-item">
-              
-              <figure  className="figureWrapper"> 
-
-               <img
-                  className="image"
-                  style={{ width: '130px', height: '130px' }} 
-                  src= { giftResponsive } 
-                  alt="First slide"
-                /> 
-
-                 
-
-              </figure>
-
-              
-
-              <div className="aboutTech">
-
-                <h5> Experiencias óptimas para todos los dispositivos </h5>
-
-                <p> 
-                    Garantizo experiencias óptimas en todos los dispositivos, ofreciendo
-                    consistencia y accesibilidad para cada usuario.
-                </p>
-
-              </div> 
-
-
-              
-
-            </Carousel.Item>
 
             <Carousel.Item className="custom-carousel-item">
               
@@ -132,7 +97,7 @@ export const  CarouselUI =  () =>  {
                <img
                   className="image"
                   style={{ width: '130px', height: '130px' }} 
-                  src= { nodeImage } 
+                  src= { maintenanceImage } 
                   alt="First slide"
                 /> 
 
@@ -147,7 +112,8 @@ export const  CarouselUI =  () =>  {
                 <h5> optimización y mantenimiento  </h5>
 
                 <p> 
-                  Especializado en optimización y mantenimiento web, con experiencia en mejorar el rendimiento del sitio, realizar pruebas de compatibilidad, mantener actualizaciones y asegurar la integridad de los datos
+
+                  Optimización y mantenimiento web, con experiencia en mejorar el rendimiento, realizar pruebas de compatibilidad y asegurar la integridad de los datos.
                 </p>
 
               </div> 

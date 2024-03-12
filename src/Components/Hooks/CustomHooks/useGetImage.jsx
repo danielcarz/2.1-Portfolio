@@ -13,9 +13,11 @@ import curriculumVitae from '../../../public/assets/SocialMedia/CV_ESP_0.2.pdf';
 
 //carousel
 import nodeImage from '../../../public/assets/carouselImages/nodejs.png';
+import maintenanceImage from '../../../public/assets/carouselImages/maintence.gif';
+import giftResponsive from '../../../public/assets/responsive-design.gif';
 
  
-export const useGetImage = () => { 
+export const useGetImage = () => {  
 
     return {
         //projects
@@ -24,11 +26,13 @@ export const useGetImage = () => {
        //social media 
        linkedinImage,
        gitHubImage,
-       gmailImage,
+       gmailImage, 
        cvImage,
 
        //carousel
        nodeImage,
+       maintenanceImage,
+       giftResponsive,
 
        //cv 
        curriculumVitae
