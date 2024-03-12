@@ -16,6 +16,7 @@ import '../../Sass/SassComponents/UiComponents/Carousel.scss';
 
 export const  CarouselUI =  () =>  {
 
+    const { nodeImage } = useContext( Contex );
  
 
     return ( 
@@ -99,7 +100,7 @@ export const  CarouselUI =  () =>  {
                <img
                   className="image"
                   style={{ width: '130px', height: '130px' }} 
-                  src= { giftResponsive } 
+                  src= { nodeImage } 
                   alt="First slide"
                 /> 
 
