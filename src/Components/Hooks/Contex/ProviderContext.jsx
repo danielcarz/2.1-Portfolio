@@ -4,9 +4,9 @@ import { Contex } from "./CreateContext";
 import { useGetImage } from '../CustomHooks/index';
 
 export const ContextProvider = ( { children } ) => {
-
+ 
     //images Projects
-    const { weatherImage, linkedinImage, gitHubImage, gmailImage} = useGetImage();
+    const { weatherImage, linkedinImage, gitHubImage, gmailImage, cvImage, curriculumVitae } = useGetImage();
    
 
     return(
@@ -18,8 +18,12 @@ export const ContextProvider = ( { children } ) => {
                     //images
                     weatherImage,
                     linkedinImage,
-                    gitHubImage,
-                    gmailImage
+                    gitHubImage, 
+                    gmailImage,
+                    cvImage,
+
+                    //curriculum
+                    curriculumVitae,
                  
                 } 
             
