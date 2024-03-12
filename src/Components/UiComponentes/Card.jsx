@@ -6,7 +6,14 @@ import '../../Sass/SassComponents/UiComponents/Cards.scss';
 //images
 import giftSmartPhone from '../../public/assets/smartphone.gif'
 
-export const CardUI = ( { weatherImage } ) => {
+export const CardUI = ( 
+    { 
+        //weather Aplication
+        weatherImage, 
+        weatherTittle,
+    
+    
+    } ) => {
 
 
     return(
@@ -14,95 +21,43 @@ export const CardUI = ( { weatherImage } ) => {
         <section className="cardsWrapper" >
 
 
-            <figure className="card">
-                <img
-                    src={ weatherImage }
-                    alt="image_project"
-                
-                >
-                    
-                </img>
+            <div className="card">
+                <div className="card-inner">
+                    <div className="card-front">
+                        <img src = { weatherImage } alt="Descripción de la imagen" />
+                    </div>
+                    <div className="card-back">
+                        Descripción de la tarjeta
+                        <button className="WebButton" > <a target="_blank" rel="noopener noreferrer" href="https://weather-aplication-six.vercel.app/"> Visitar sitio web </a>  </button>
+                    </div>
+                </div>
+            </div>
 
-                <section>
-                    <h2>tittle project</h2>
-                    <p>subtittle project</p>
-                </section>
-            </figure>
+            <div className="card">
+                <div className="card-inner">
+                    <div className="card-front">
+                        <img src = { weatherImage } alt="Descripción de la imagen" />
+                    </div>
+                    <div className="card-back">
+                        Descripción de la tarjeta
+                        <button className="WebButton" > <a target="_blank" rel="noopener noreferrer" href="https://weather-aplication-six.vercel.app/"> Visitar sitio web </a>  </button>
+                    </div>
+                </div>
+            </div>
 
-            <figure className="card">
-                <img
-                    src={ giftSmartPhone }
-                    alt="image_project"
-                
-                >
-                    
-                </img>
+            <div className="card">
+                <div className="card-inner">
+                    <div className="card-front">
+                        <img src = { weatherImage } alt="Descripción de la imagen" />
+                    </div>
+                    <div className="card-back">
+                        Descripción de la tarjeta
+                        <button className="WebButton" > <a target="_blank" rel="noopener noreferrer" href="https://weather-aplication-six.vercel.app/"> Visitar sitio web </a>  </button>
+                    </div>
+                </div>
+            </div>
 
-                <section>
-                    <h2>tittle project</h2>
-                    <p>subtittle project</p>
-                </section>
-            </figure>
-
-            <figure className="card">
-                <img
-                    src={ giftSmartPhone }
-                    alt="image_project"
-                
-                >
-                    
-                </img>
-
-                <section>
-                    <h2>tittle project</h2>
-                    <p>subtittle project</p>
-                </section>
-            </figure>
-
-            <figure className="card">
-                <img
-                    src={ giftSmartPhone }
-                    alt="image_project"
-                
-                >
-                    
-                </img>
-
-                <section>
-                    <h2>tittle project</h2>
-                    <p>subtittle project</p>
-                </section>
-            </figure>
-
-            <figure className="card">
-                <img
-                    src={ giftSmartPhone }
-                    alt="image_project"
-                
-                >
-                    
-                </img>
-
-                <section>
-                    <h2>tittle project</h2>
-                    <p>subtittle project</p>
-                </section>
-            </figure>
-
-            <figure className="card">
-                <img
-                    src={ giftSmartPhone }
-                    alt="image_project"
-                
-                >
-                    
-                </img>
-
-                <section>
-                    <h2>tittle project</h2>
-                    <p>subtittle project</p>
-                </section>
-            </figure>
+            
 
 
         </section>

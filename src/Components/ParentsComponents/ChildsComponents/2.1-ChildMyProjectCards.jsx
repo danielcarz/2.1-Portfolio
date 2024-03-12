@@ -18,7 +18,15 @@ export const ChildMyProjectCards = () => {
     return(
         <>
         
-            <CardUI weatherImage = { weatherImage } ></CardUI>
+            <CardUI 
+
+                //weather Aplications
+                weatherImage = { weatherImage }
+                weatherTittle = { 'Aplicacion del Clima' } 
+            
+            
+            
+            ></CardUI>
         
         </>
             
