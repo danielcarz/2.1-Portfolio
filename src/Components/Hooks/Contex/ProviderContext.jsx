@@ -6,11 +6,29 @@ import { useGetImage } from '../CustomHooks/index';
 export const ContextProvider = ( { children } ) => {
 
     //images Projects
-    const { weatherImage } = useGetImage();
+    const { weatherImage, linkedinImage, gitHubImage, gmailImage} = useGetImage();
    
 
     return(
 
-        <Contex.Provider value={ { weatherImage } } > { children } </Contex.Provider>
+        <Contex.Provider 
+            value={
+
+                {  
+                    //images
+                    weatherImage,
+                    linkedinImage,
+                    gitHubImage,
+                    gmailImage
+                 
+                } 
+            
+            } > 
+        
+            { children } 
+
+
+        
+        </Contex.Provider>
     )
 }

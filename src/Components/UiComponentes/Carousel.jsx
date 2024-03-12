@@ -1,4 +1,9 @@
+import React, { useContext } from 'react';
+
 import Carousel from 'react-bootstrap/Carousel';
+
+//context
+import { Contex } from '../Hooks/Contex/CreateContext';
 
 //assets
 import giftResponsive from '../../public/assets/responsive-design.gif';
@@ -10,6 +15,9 @@ import '../../Sass/SassComponents/UiComponents/Carousel.scss';
 
 
 export const  CarouselUI =  () =>  {
+
+ 
+
     return ( 
      
         

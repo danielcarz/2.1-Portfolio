@@ -1,17 +1,15 @@
+import React, { useContext } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 
-//images
-import github from '../../public/assets/gitHub.png';
-import gmail from '../../public/assets/gmail.png';
-import linkedin from '../../public/assets/linkedin.png';
-
+//context
+import { Contex } from '../Hooks/Contex/CreateContext';
 
 //styles
 import '../../Sass/SassComponents/UiComponents/Navbar.scss';
 
 export const Navbar = () => {
 
-   
+   const { linkedinImage, gitHubImage } = useContext( Contex );
     
 
     return (
@@ -26,9 +24,9 @@ export const Navbar = () => {
             <div className='social-Wrapper'>
 
                 <figure className='socialEmoticon-wrapper' >                 
-                    <a href='https://github.com/danielcarz'>  <img src= { github } alt="git hub emoticon" /> </a>
-                    <a href='https://gamil.com'>  <img src= { gmail } alt="git hub emoticon" /> </a>
-                    <a href='https://www.linkedin.com/in/daniel-carmona-zapata-4961a9209/'>  <img src= { linkedin } alt="git hub emoticon" /> </a>
+                    <a  target="_blank" rel="noopener noreferrer"  href='https://github.com/danielcarz'>  <img src= { gitHubImage } alt="git hub emoticon" /> </a>
+                    
+                    <a  target="_blank" rel="noopener noreferrer"  href='https://www.linkedin.com/in/daniel-carmona-zapata-4961a9209/'>  <img src= { linkedinImage } alt="git hub emoticon" /> </a>
                 </figure>
 
                 
