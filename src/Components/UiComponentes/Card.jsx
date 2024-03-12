@@ -3,8 +3,7 @@ import React from "react";
 //styles
 import '../../Sass/SassComponents/UiComponents/Cards.scss';
 
-//images
-import giftSmartPhone from '../../public/assets/smartphone.gif'
+
 
 export const CardUI = ( 
     { 
