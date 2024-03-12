@@ -15,7 +15,7 @@ export const Welcome = () => {
 
             <ChildWelcomeInfo></ChildWelcomeInfo>
             <ChildWelcomeAside></ChildWelcomeAside>
-
+  
         </section>
     )
 }

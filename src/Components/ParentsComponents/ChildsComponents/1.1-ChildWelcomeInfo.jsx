@@ -12,17 +12,13 @@ export const ChildWelcomeInfo = () => {
             <h1 className="tittle" >welcome</h1>
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolorum fugit nihil 
-                inventore at, ipsum porro quos! In beatae nihil recusandae aut asperiores et quasi 
-                dolores dolor aliquid, atque pariatur. Lorem ipsum dolor sit, amet consectetur
-                 adipisicing elit. Ipsa quos architecto atque mollitia ex error minus veritatis est
-                  eos, delectus temporibus rerum quibusdam unde molestiae nobis culpa, velit 
-                  voluptas fugiat.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  Eos unde error vero ratione voluptatem, saepe expedita quidem temporibus ullam 
-                  asperiores ipsam accusamus odit, provident libero deserunt cupiditate, tempore 
-                  quae non.
+
+                ¡Hola! Soy Daniel, un apasionado desarrollador web frontend con experiencia en la 
+                creación de aplicaciones web responsivas, dinámicas y funcionales. Mi enfoque principal
+                es escribir código limpio y eficiente utilizando tecnologías modernas.
                   
             </p>
+            
         </section>
     )
 }

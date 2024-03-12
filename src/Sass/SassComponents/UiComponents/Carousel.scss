@@ -49,33 +49,67 @@
   }
   
   @mixin styles_desktop () {
+
     display: flex;
     flex-direction: column;
-   
 
+    margin: 0;
     
 
-    height: 400px;
+    position: relative;
+
     
-    border: 1px solid rgb(250, 214, 10);
+    width: 90%;
+    height: 330px;
+    
 
     .figureWrapper{
+      
         width: 100%;
-        height: 200px;
+        height: 50%; 
+        
+        
 
         display: flex;
         justify-content: center;
         align-items: center;
         
 
-        border: 1px solid red;
+       
         
 
         img{
+
           width: 70%;
           border-radius: 50px;
           
         }
+    }
+
+    .aboutTech{
+
+      width: 100%; 
+      height: auto;
+
+      padding: 5px; 
+
+      text-align: center;
+
+      border: 1px solid green;
+    
+
+      h5{
+        text-align: center;
+        color: red;
+      } 
+
+      p{
+        color: red;
+
+        
+      }
+
+      
     }
   }
   
@@ -84,10 +118,6 @@
   
   .custom-carousel-item{
  
-   
-
-    
-    
   
     @include media-query($media_phone){
       @include styles_phone();

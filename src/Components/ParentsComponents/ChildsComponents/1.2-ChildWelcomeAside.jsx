@@ -13,6 +13,7 @@ export const ChildWelcomeAside = () => {
         <section className="welcomeAsideWrapper" >
             
             <CarouselUI></CarouselUI>
+             
         </section>
     )
 }
