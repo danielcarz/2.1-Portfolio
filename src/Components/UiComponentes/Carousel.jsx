@@ -115,7 +115,39 @@ export const  CarouselUI =  () =>  {
                 <h5> Desarrollo Backend </h5>
 
                 <p> 
-                  Desarrollador backend con Node.js experimentado en implementación de lógica de negocio y autenticación de usuarios. Especializado en mantener la seguridad y el rendimiento del servidor y la base de datos.
+                  Desarrollador backend en implementación de lógica de negocio, autenticación de usuarios, mantener la seguridad y el rendimiento del servidor y la base de datos.
+                </p>
+
+              </div> 
+
+
+              
+
+            </Carousel.Item>
+
+            <Carousel.Item className="custom-carousel-item">
+              
+              <figure  className="figureWrapper"> 
+
+               <img
+                  className="image"
+                  style={{ width: '130px', height: '130px' }} 
+                  src= { nodeImage } 
+                  alt="First slide"
+                /> 
+
+                 
+
+              </figure>
+
+              
+
+              <div className="aboutTech">
+
+                <h5> optimización y mantenimiento  </h5>
+
+                <p> 
+                  Especializado en optimización y mantenimiento web, con experiencia en mejorar el rendimiento del sitio, realizar pruebas de compatibilidad, mantener actualizaciones y asegurar la integridad de los datos
                 </p>
 
               </div> 
