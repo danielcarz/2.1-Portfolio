@@ -1,0 +1,57 @@
+//VARIABLES (it musb be in the first position)
+@use '../../Mixins/Variables.scss' as *;
+
+//MEDIA
+@import '../../Mixins/MediaQueries/MediaQueries.scss';
+
+
+@mixin styles_phone () {
+    
+    
+  }
+  
+  @mixin styles_tablets () {
+   
+  }
+  
+  @mixin styles_desktop () {
+
+    display: flex;
+   
+
+    .footerWrapper{
+        display: flex;
+        justify-content: center;
+
+
+        width: 50%;
+        height: 40vh;
+
+        
+        
+        color: red;
+        
+        border: 1px solid red;
+
+    }
+  }
+  
+  
+  
+  
+  .footerContainer{
+    
+  
+    @include media-query($media_phone){
+      @include styles_phone();
+    }
+  
+    @include media-query($media_tablet){
+      @include styles_tablets();
+    }
+  
+    @include media-query($media_desktop){
+      @include styles_desktop();
+    }
+  
+  }
