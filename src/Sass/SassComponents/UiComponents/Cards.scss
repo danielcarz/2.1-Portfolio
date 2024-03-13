@@ -113,6 +113,27 @@
               align-items: center;
               transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
 
+              .WebButton{
+                
+                height: 40px;
+                width: 150px;
+                
+                color: white;
+                background-color:  #333;
+
+                border: 1px solid white;
+                border-radius: 20px ;
+                
+                a{
+
+                  color: white;
+                  background-color: none;
+
+                  text-decoration: none;
+                }
+
+              }
+
           }
       }
   
