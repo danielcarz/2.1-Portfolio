@@ -14,7 +14,7 @@ export const PageHome = () => {
 
         <div className="Pageone" >
             <Navbar></Navbar>
-
+ 
             <Welcome></Welcome>
 
             <MyProjects></MyProjects>
