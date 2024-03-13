@@ -6,7 +6,7 @@ import { useGetImage } from '../CustomHooks/index';
 export const ContextProvider = ( { children } ) => {
  
     //images Projects
-    const { weatherImage, linkedinImage, gitHubImage, gmailImage, nodeImage, cvImage, curriculumVitae, maintenanceImage, giftResponsive } = useGetImage();
+    const { weatherImage, linkedinImage, gitHubImage, gmailImage, nodeImage, cvImage, curriculumVitae, maintenanceImage, giftResponsive, whatsappImage} = useGetImage();
    
 
     return(
@@ -21,11 +21,15 @@ export const ContextProvider = ( { children } ) => {
                     gitHubImage, 
                     gmailImage,
                     cvImage,
+                    whatsappImage,
 
                     //images carousel
                     nodeImage,
                     maintenanceImage,
                     giftResponsive,
+
+                    //images footer
+                        //-gitHubImage, linkedinImage 
 
                     //curriculum
                     curriculumVitae,

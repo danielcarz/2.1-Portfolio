@@ -101,7 +101,7 @@
         display: flex;
         justify-content: center;
 
-        height: 50vh;
+        height: 60vh;
         width: 100%;
      
         border: 1px solid rgb(255, 0, 0);  
@@ -152,9 +152,32 @@
 
             .socialInfo{
 
+                height: 30%;
+
+                border: 1px solid red;
+
+                .wrapperCv{
+                    
+                
+
+                    border: 1px solid red;;
+
+                    .cvIcon{
+    
+                        height: auto;
+    
+                        img{
+    
+                            width: 30px;
+                            height: 30px;
+            
+                            margin: 10px;
+                        }
+                    }
 
 
-                border: 1px solid red; 
+                }
+                
             }
         }
 
@@ -175,8 +198,17 @@
             .wrapperIcons{
 
                 display: flex;
-                justify-content: space-around;
-            }
+                align-items: center; // Centra verticalmente las imágenes
+                
+                
+        
+                img{
+                  width: 30px;
+                  height: 30px;
+        
+                  margin: 10px;
+                }
+              }
         }
        
 
