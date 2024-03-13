@@ -9,14 +9,15 @@ export const Footer = () => {
 
     return(
        <footer className="footerContainer">
+
             <section className="footerWrapper one" >
 
                 <div className="wrapperInfo" >
-                    <h1>tittle footer</h1>
-
+                    <h2 className="footerTitle"> ¡Garantizo el funcionamiento y la evolución de tus proyectos web!" </h2>
+ 
                     <div className="wrapperTitle" >
-                        <h3>tittle 2</h3>
-                        <p>lorem basic</p>    
+                        <h3 className="footerContactme"> Contáctame </h3>
+                        <p> ( +57 ) 312 6626 051 </p>    
 
                     </div>
  
@@ -31,13 +32,17 @@ export const Footer = () => {
                 <div className="wrapperSocialInfo">
                     
                     <section className="socialInfo" >
-                        <h2>title two</h2>
-                        <p> lorem two </p>
+                        <h2> Gmail </h2>
+                        <p> <b> dcz9412@gmail.com </b> </p>
                     </section>
                     
                     <section className="socialInfo" >
-                        <h2>title two</h2>
-                        <p> lorem two </p>
+                        <h2> linkedin </h2>
+
+                        <p>
+                            <b> Daniel Carmona Zapata: </b>    
+                            <a  target="_blank" rel="noopener noreferrer"  href='https://www.linkedin.com/in/daniel-carmona-zapata-4961a9209/'> Linkedin profile </a>
+                        </p>
                     </section>
                 
                 

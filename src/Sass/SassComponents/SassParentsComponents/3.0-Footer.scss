@@ -106,7 +106,7 @@
      
         border: 1px solid rgb(255, 0, 0);  
 
-
+        //section one
         .wrapperInfo{
 
             display: flex;
@@ -116,15 +116,23 @@
 
             border: 1px solid red;
 
-            h1{
-                width: 100%
+            .footerTitle{
+
+                padding: 25px;
+
+
+
+                font-size: 25px;
+
+                border: 1px solid red;
             }
 
             .wrapperTitle{
                 
-                width: 50%;
+                width: 60%; 
 
-                margin-left: 50%;  
+                margin-left: 40%;
+                margin-top: 17px;   
 
                 color: 1px solid red; 
 
@@ -132,9 +140,13 @@
             }  
         }
 
+
+
         .wrapperSocialInfo{
 
-            margin-top: 75px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
 
             width: 70%; 
 
