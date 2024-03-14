@@ -8,7 +8,9 @@ export const MyProjects = () => {
 
     return(
         <section>
+
             <ChildMyProjectCards></ChildMyProjectCards>
+            
         </section>
     )
 } 

@@ -14,6 +14,7 @@ export const Welcome = () => {
         <section className="welcomeInfoContainer" > 
 
             <ChildWelcomeInfo></ChildWelcomeInfo>
+            
             <ChildWelcomeAside></ChildWelcomeAside>
   
         </section>

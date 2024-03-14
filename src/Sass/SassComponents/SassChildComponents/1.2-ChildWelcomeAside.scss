@@ -6,7 +6,12 @@
 
 
 @mixin styles_phone () {
-    border: 1px solid yellow;
+    
+    width: 100%;            
+    height: 360px; 
+        
+
+    border: 1px solid red;
     
   }
   

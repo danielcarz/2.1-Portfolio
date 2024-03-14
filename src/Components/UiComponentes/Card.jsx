@@ -6,6 +6,7 @@ import '../../Sass/SassComponents/UiComponents/Cards.scss';
 
 
 export const CardUI = ( 
+    
     { 
         //weather Aplication
         weatherImage, 

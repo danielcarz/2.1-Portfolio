@@ -6,7 +6,106 @@
 
 
 @mixin styles_phone () {
-    border: 1px solid yellow;
+    
+  width: 100%;
+  height: auto;
+
+  padding: 10px;
+    
+
+  display: grid;
+  grid-template-columns: repeat(1, minmax(100px, 1fr));
+  gap: 20px;
+
+  justify-content: center;
+  
+
+  border: 1px solid red;
+    
+
+  .card {
+    position: relative;
+
+    width: 210px;
+    height: 210px;
+
+    padding: 20px;
+
+    perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
+    margin: 0 auto;
+    
+    cursor: pointer;
+    border: none;
+
+    .card-inner {
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+
+        
+
+        transition: transform 0.5s; /* Agrega una transición suave */
+        transform-style: preserve-3d;
+
+        .card-front, .card-back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
+        }
+
+        .card-front {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            img{
+              width: 240px;
+              height: 210px; 
+            }
+        }
+
+        .card-back {
+
+            background-color: #333;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
+
+            .WebButton{
+              
+              height: 40px;
+              width: 150px;
+              
+              color: white;
+              background-color:  #333;
+
+              border: 1px solid white;
+              border-radius: 20px ;
+              
+              a{
+
+                color: white;
+                background-color: none;
+
+                text-decoration: none;
+              }
+
+            }
+
+        }
+    }
+
+    &:hover .card-inner {
+        transform: rotateY(180deg); /* Rota la tarjeta en el eje Y al hacer hover */
+    }
+  }
     
   }
   

@@ -28,12 +28,14 @@ export const Footer = () => {
                 <div className="wrapperSocialInfo">
                     
                     <section className="socialInfo" >
-                        <h3 className="socialTittle" > Gmail </h3>
-                        <p> <b> dcz9412@gmail.com </b> </p>
+
+                        <h3 className="socialTittle" >  <b> Gmail </b>  </h3>
+                        <a> dcz9412@gmail.com  </a>
+
                     </section> 
                     
                     <section className="socialInfo" >
-                        <h3 className="socialTittle" >  Curriculum </h3>
+                        <h3 className="socialTittle" >  <b> Curriculum </b>  </h3>
 
                         <p className="wrapperCv" >
                              
@@ -42,8 +44,10 @@ export const Footer = () => {
                     </section>
 
                     <section className="socialInfo" >
-                        <h3 className="socialTittle"> Contáctame </h3>
-                        <p> ( +57 ) 312 6626 051 </p>    
+                        
+                        <h3 className="socialTittle"> <b> Contáctame </b>  </h3>
+                       
+                        <a  target="_blank" rel="noopener noreferrer"  href='https://wa.me/+573126626051'> ( +57 ) 312 6626 051 </a>    
 
                     </section>
                 
@@ -75,6 +79,7 @@ export const Footer = () => {
 
 
             </section>
+
        </footer>
     )
 }  
