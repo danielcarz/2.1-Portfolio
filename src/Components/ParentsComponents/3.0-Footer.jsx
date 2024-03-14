@@ -18,9 +18,6 @@ export const Footer = () => {
                 <div className="wrapperInfo" >
                     <h2 className="footerTitle"> ¡Garantizo el funcionamiento y la evolución de tus proyectos web!" </h2>
  
-                   
- 
-                    
                 </div> 
 
                 
