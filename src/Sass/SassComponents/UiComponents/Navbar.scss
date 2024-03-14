@@ -14,13 +14,11 @@
 @mixin styles_tablets () {
   
   width: 100%;
-  height: 85px;
+  height: 70px;
 
-  padding: 10px;
+  margin-left: 20px;
 
- 
-
-  border: 1px solid red;
+  
 
   display: flex;
   flex-direction: row;

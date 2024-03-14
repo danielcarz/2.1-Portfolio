@@ -29,12 +29,12 @@ export const  CarouselUI =  () =>  {
               
               <figure  className="figureWrapper"> 
 
-               <img
-                  className="image"
-                  style={{ width: '130px', height: '130px' }} 
-                  src= { giftResponsive } 
-                  alt="First slide"
-                /> 
+                <img
+                    className="image"
+                    style={{ width: '130px', height: '130px' }} 
+                    src= { giftResponsive } 
+                    alt="First slide"
+                  /> 
 
                  
 
