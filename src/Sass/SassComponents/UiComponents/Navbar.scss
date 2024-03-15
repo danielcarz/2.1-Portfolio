@@ -28,13 +28,15 @@
 
     max-width: 100%; // Adjust this value as needed
     height: 50px;
+    width: 200px;
 
     margin-right: 30px;
-    padding: 0;
+    padding: 10px;
 
     display: flex;
+    justify-content: space-around;
 
-    border: 1px solid red;
+   
 
     .socialEmoticon-wrapper{
 
@@ -44,8 +46,8 @@
       
 
       img{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
 
         margin: 10px;
       }
@@ -82,7 +84,7 @@
 
     display: flex;
 
-    border: 1px solid red;
+    
 
     .socialEmoticon-wrapper{
 
@@ -129,7 +131,7 @@
  
       display: flex;
 
-      border: 1px solid red;
+      
 
       .socialEmoticon-wrapper{
 

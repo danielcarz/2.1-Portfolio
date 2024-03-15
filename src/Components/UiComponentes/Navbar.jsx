@@ -18,9 +18,9 @@ export const Navbar = () => {
 
            
 
-            <NavLink  to= "two" className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }`  }> Acerca de mi </NavLink>
+            {/* <NavLink  to= "two" className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }`  }> Acerca de mi </NavLink>
             <NavLink  to= "three" className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }`  }> THREE </NavLink> 
-
+ */}
             <div className='social-Wrapper'>
  
                 <figure className='socialEmoticon-wrapper' >                 
