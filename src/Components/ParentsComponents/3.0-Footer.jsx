@@ -30,7 +30,7 @@ export const Footer = () => {
                     <section className="socialInfo" >
 
                         <h3 className="socialTittle" >  <b> Gmail </b>  </h3>
-                        <a> dcz9412@gmail.com  </a>
+                        <a   className="cvIcon" target="_blank" rel="noopener noreferrer" href="dcz9412@gmail.com" >  <b> dcz9412@gmail.com </b></a> 
 
                     </section> 
                     

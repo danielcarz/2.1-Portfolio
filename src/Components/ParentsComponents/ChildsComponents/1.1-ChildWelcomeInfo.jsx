@@ -10,7 +10,7 @@ export const ChildWelcomeInfo = () => {
         
         <section className="welcomeInfoWrapper" >
 
-            <h1 className="tittle" >welcome</h1>
+            <h1 className="tittle" >Bienvenido </h1>
 
             <p>
 

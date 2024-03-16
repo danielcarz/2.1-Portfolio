@@ -19,7 +19,7 @@
 
   justify-content: center;
   
-
+  
   
     
 
@@ -33,6 +33,8 @@
 
     perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
     margin: 0 auto;
+
+    background-color: black;
     
     cursor: pointer;
     border: none;
@@ -240,7 +242,7 @@
       cursor: pointer;
 
       border: none;
-
+ 
       background-color: black;
   
       .card-inner {

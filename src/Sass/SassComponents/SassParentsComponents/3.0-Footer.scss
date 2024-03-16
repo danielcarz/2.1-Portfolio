@@ -20,11 +20,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+        margin: 0 auto;
 
         height: auto; 
         width: 100%;
-        color: black;
-        
+       
+        border: 1px solid red;;
          
 
         //section one
@@ -38,7 +40,8 @@
 
             width: 100%;
             height: 100px;
-
+            
+          
            
 
             .footerTitle{
@@ -80,14 +83,18 @@
             padding: 5px;
 
             width: 100%; 
-
+  
             .socialInfo{
 
                 height: 30%;
+                width: 90%;
 
                 font-size: 18px;
-
                 
+
+               margin: 0 auto;
+
+                border: 1px solid red;
 
                 .socialTittle{
 
@@ -434,7 +441,14 @@
   
   .footerContainer{
 
-    color: rgba(127, 230, 128, 0.572); 
+    color: rgba(127, 230, 128, 0.572);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid red;
 
     background: black;
 
