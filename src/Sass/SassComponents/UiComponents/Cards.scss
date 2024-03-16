@@ -229,12 +229,19 @@
     .card {
       
       position: relative;
+
       width: 200px;
       height: 200px;
+
       perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
+
       margin: 20px;
+
       cursor: pointer;
+
       border: none;
+
+      background-color: black;
   
       .card-inner {
           position: absolute;
@@ -317,6 +324,11 @@
   
   
   .cardsWrapper{
+
+    background: black;
+
+    border: 2px solid rgba(4, 109, 5, 0.572);
+    border-radius: 15px;
     
   
     @include media-query($media_phone){

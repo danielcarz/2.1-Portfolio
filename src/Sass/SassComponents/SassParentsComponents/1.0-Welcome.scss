@@ -47,6 +47,9 @@
   
   
   .welcomeInfoContainer{
+
+    background-color: black;
+    color: rgba(127, 230, 128, 0.572); 
     
   
     @include media-query($media_phone){

@@ -192,11 +192,11 @@
 
       h5{
         text-align: center;
-        color: red;
+        
       } 
 
       p{
-        color: red;
+        
 
         
       }
@@ -209,6 +209,8 @@
   
   
   .custom-carousel-item{
+
+    color: rgba(127, 230, 128, 0.572); 
  
   
     @include media-query($media_phone){
