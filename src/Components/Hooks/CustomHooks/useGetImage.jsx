@@ -10,13 +10,16 @@ import whatsappImage  from '../../../public/assets/SocialMedia/whatsapp.png';
 
 //cv
 import curriculumVitae from '../../../public/assets/SocialMedia/CV_ESP_05.pdf';
-
+ 
 
 //carousel
 import nodeImage from '../../../public/assets/carouselImages/nodejs.png';
 import maintenanceImage from '../../../public/assets/carouselImages/maintence.gif';
 import giftResponsive from '../../../public/assets/responsive-design.gif';
 
+//navbar
+import dIcon from '../../../public/assets/d.png';
+import cIcon from '../../../public/assets/c.png';
  
 export const useGetImage = () => {  
 
@@ -37,7 +40,11 @@ export const useGetImage = () => {
        giftResponsive,
 
        //cv 
-       curriculumVitae
+       curriculumVitae,
+
+       //navbar
+       dIcon,
+       cIcon
 
     };
 } 
