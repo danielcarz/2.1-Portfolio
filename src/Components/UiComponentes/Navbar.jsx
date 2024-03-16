@@ -18,8 +18,10 @@ export const Navbar = () => {
             <Link className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` } to= "/" >
                  
                  <figure className='wrapperLogo'>
+
                      <img src= { dIcon } alt="" />
                      <img src= { cIcon } ></img>
+                     
                 </figure>
                 <p> <b> DaniCode  </b> </p> 
 
