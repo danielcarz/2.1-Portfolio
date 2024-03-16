@@ -20,7 +20,8 @@ export const Navbar = () => {
                  <figure className='wrapperLogo'>
                      <img src= { dIcon } alt="" />
                      <img src= { cIcon } ></img>
-                </figure> 
+                </figure>
+                <p> <b> DaniCode  </b> </p> 
 
             </Link>
 
