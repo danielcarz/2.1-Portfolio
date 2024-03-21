@@ -18,31 +18,53 @@
   
 @mixin styles_desktop () {
 
-    display: flex;
-    justify-content: space-around;
+    height: 200px;
 
-    .icon{
+    border: 1px solid rgb(110, 240, 4);
 
-        width: 50px;
-        height: 50px;
+    .iconsWrapper{
+        
 
-        img{
-            width: 40px;
-            height: 40px
+        display: flex;
+        justify-content: space-around;
 
+        border: 1px solid red;
+    
+        .icon{
+
+            width: 80px;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            border: 1px solid red;
+    
+            img{
+                width: 40px;
+                height: 40px;
+
+                
+    
+            }
+    
         }
 
     }
+
 
 }
   
   
   
   
-.IconsContainer{
+.iconsContainer{
 
+    color: rgba(127, 230, 128, 0.572);
 
-
+ 
 
 
 
@@ -58,4 +80,4 @@
     @include styles_desktop();
 }
 
-}
+} 

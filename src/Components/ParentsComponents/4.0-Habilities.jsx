@@ -12,13 +12,14 @@ export const Habilities = () => {
 
     return( 
 
-    <section>
+    <section className="iconsContainer" >
         <h2> Habilidades: </h2>
-       <section className="IconsContainer" >
+
+       <section className="iconsWrapper" >
 
             <figure className="icon"> Bootstrap <img src= {bootstrapIcon } alt="" /> </figure>
 
-            <figure className="icon" > Css <img src= { csspIcon} alt="" />  </figure>
+            <figure className="icon" > css <img src= { csspIcon} alt="" />  </figure>
 
             <figure className="icon" > GitHub <img src= { gitHubIcon } alt="" />  </figure>
 
