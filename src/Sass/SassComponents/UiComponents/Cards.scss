@@ -10,8 +10,9 @@
   width: 100%;
   height: auto;
 
-  padding: 10px;
-    
+  padding: 20px;
+  
+  
 
   display: grid;
   grid-template-columns: repeat(1, minmax(100px, 1fr));
@@ -90,17 +91,20 @@
         .card-back {
 
             background-color: #333;
+
             color: white;
+
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
+            
             transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
 
             .WebButton{
               
               height: 40px;
-              width: 150px;
+              width: 180px; 
               
               color: white;
               background-color:  #333;
@@ -254,7 +258,7 @@
 
       .wrapperTittleProject{
 
-        ;
+        
         
         h2{
           text-align: center;

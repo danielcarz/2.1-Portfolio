@@ -42,6 +42,7 @@ export const CardUI = (
                             <button className="WebButton" > <a target="_blank" rel="noopener noreferrer" href="https://weather-aplication-six.vercel.app/"> Visitar sitio web </a>  </button>
 
                             <button className="WebButton" > <a target="_blank" rel="noopener noreferrer" href="https://github.com/danielcarz/Weather-Aplication"> Ver codigo en gitHub </a>  </button>
+                        
                         </div>
 
                     </div>
