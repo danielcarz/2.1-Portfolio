@@ -6,8 +6,41 @@ import { useGetImage } from '../CustomHooks/index';
 export const ContextProvider = ( { children } ) => {
  
     //images Projects
-    const { weatherImage, linkedinImage, gitHubImage, gmailImage, nodeImage, cvImage, curriculumVitae, maintenanceImage, giftResponsive, whatsappImage, dIcon, cIcon } = useGetImage();
+    const { 
+            weatherImage,
+
+            linkedinImage,
+
+            gitHubImage, 
+
+            gmailImage,
+
+            nodeImage, 
+
+            cvImage,
+
+            curriculumVitae,
+
+            maintenanceImage,
+
+            giftResponsive, 
+
+            whatsappImage,
+
+            dIcon,
+
+            cIcon,
+            
+            //technology icons
+            bootstrapIcon,
+            csspIcon,
+            gitHubIcon,  
+            jspIcon,
+            mysqlpIcon,
+            nodepIcon,
+            reactpIcon, } = useGetImage();
    
+
 
     return(
 
@@ -36,7 +69,16 @@ export const ContextProvider = ( { children } ) => {
 
                     //navbar
                     dIcon,
-                    cIcon
+                    cIcon,
+
+                    //habilities icons
+                    bootstrapIcon,
+                    csspIcon,
+                    gitHubIcon,
+                    jspIcon,
+                    mysqlpIcon,
+                    nodepIcon,
+                    reactpIcon
 
 
                  

@@ -20,6 +20,15 @@ import giftResponsive from '../../../public/assets/responsive-design.gif';
 //navbar
 import dIcon from '../../../public/assets/d.png';
 import cIcon from '../../../public/assets/c.png';
+
+//habilities
+import bootstrapIcon from '../../../public/assets/technologyIcons/bootstrap.png';
+import csspIcon from '../../../public/assets/technologyIcons/css.png';
+import gitHubIcon from '../../../public/assets/technologyIcons/github.png';
+import jspIcon from '../../../public/assets/technologyIcons/js.png';
+import mysqlpIcon from '../../../public/assets/technologyIcons/mysql.png';
+import nodepIcon from '../../../public/assets/technologyIcons/nodejs.png';
+import reactpIcon from '../../../public/assets/technologyIcons/react.png';
  
 export const useGetImage = () => {  
 
@@ -44,7 +53,19 @@ export const useGetImage = () => {
 
        //navbar
        dIcon,
-       cIcon
+       cIcon,
+
+       //habilities
+       bootstrapIcon,
+       csspIcon,
+       gitHubIcon,
+       jspIcon,
+       mysqlpIcon,
+       nodepIcon,
+       reactpIcon
+
+
+
 
     };
 } 
