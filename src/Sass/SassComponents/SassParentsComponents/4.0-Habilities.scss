@@ -7,7 +7,43 @@
 
 @mixin styles_phone () {
 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+
+    .iconsWrapper{
+        
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+       
     
+        .icon{
+
+            width: 80px;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
+    
+            img{
+                width: 40px;
+                height: 40px;
+
+                
+    
+            }
+    
+        }
+
+    }
+
 }
 
 @mixin styles_tablets () {
@@ -20,7 +56,7 @@
 
     height: 200px;
 
-    border: 1px solid rgb(110, 240, 4);
+    
 
     .iconsWrapper{
         
@@ -28,7 +64,6 @@
         display: flex;
         justify-content: space-around;
 
-        border: 1px solid red;
     
         .icon{
 
@@ -40,8 +75,7 @@
             justify-content: center;
             align-items: center;
 
-            border: 1px solid red;
-    
+           
             img{
                 width: 40px;
                 height: 40px;
