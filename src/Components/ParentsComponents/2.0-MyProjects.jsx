@@ -12,7 +12,7 @@ export const MyProjects = () => {
     return(
         <section className="myProjectsContainer">
 
-            <h1> Projectos recientes </h1>
+            <h1> Proyectos recientes </h1>
             
             <ChildMyProjectCards></ChildMyProjectCards>
             
