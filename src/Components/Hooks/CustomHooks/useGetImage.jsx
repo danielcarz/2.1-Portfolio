@@ -20,6 +20,7 @@ import giftResponsive from '../../../public/assets/responsive-design.gif';
 //navbar
 import dIcon from '../../../public/assets/d.png';
 import cIcon from '../../../public/assets/c.png';
+import dc from '../../../public/assets/dc.png';
 
 //habilities
 import bootstrapIcon from '../../../public/assets/technologyIcons/bootstrap.png';
@@ -54,6 +55,7 @@ export const useGetImage = () => {
        //navbar
        dIcon,
        cIcon,
+       dc, 
 
        //habilities
        bootstrapIcon,

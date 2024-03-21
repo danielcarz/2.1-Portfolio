@@ -9,7 +9,7 @@ import '../../Sass/SassComponents/UiComponents/Navbar.scss';
 
 export const Navbar = () => {
 
-   const { linkedinImage, gitHubImage, cvImage, curriculumVitae, dIcon, cIcon } = useContext( Contex );
+   const { linkedinImage, gitHubImage, cvImage, curriculumVitae, dIcon, cIcon, dc } = useContext( Contex );
     
 
     return (
@@ -19,8 +19,8 @@ export const Navbar = () => {
                  
                  <figure className='wrapperLogo'>
 
-                     <img src= { dIcon } alt="" />
-                     <img src= { cIcon } ></img>
+                     <img src= { dc } alt="logo" /> 
+                     
                      
                 </figure>
                 <p> <b> DaniCode  </b> </p> 

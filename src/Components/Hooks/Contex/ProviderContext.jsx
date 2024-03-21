@@ -30,6 +30,8 @@ export const ContextProvider = ( { children } ) => {
             dIcon,
 
             cIcon,
+
+            dc,
             
             //technology icons
             bootstrapIcon,
@@ -70,6 +72,7 @@ export const ContextProvider = ( { children } ) => {
                     //navbar
                     dIcon,
                     cIcon,
+                    dc,
 
                     //habilities icons
                     bootstrapIcon,
