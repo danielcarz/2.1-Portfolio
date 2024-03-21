@@ -9,10 +9,10 @@
 
     margin-top: 15px;
 
-   
-
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
 
     .footerWrapper{
@@ -311,13 +311,22 @@
   
   @mixin styles_desktop () {
 
+    
+
     display: flex;
-   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 
     .footerWrapper{
 
+        
+
         display: flex;
+        
         justify-content: center;
+        align-items: center;
 
         height: auto;
         width: 100%;

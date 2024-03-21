@@ -4,7 +4,7 @@ import React, { useContext } from "react";
 import { Contex } from '../../Hooks/Contex/CreateContext';
 
 //ui components
-import { CardUI } from '../../UiComponentes/Card';
+import { CardUI } from '../../UiComponentes/Card'; 
 
 
 //styles
@@ -13,13 +13,13 @@ import '../../../Sass/SassComponents/SassChildComponents/2.1-ChildMyProjectCards
 export const ChildMyProjectCards = () => { 
 
     const { weatherImage } = useContext ( Contex );
-    console.log( weatherImage )
+    
 
     return(
         <>
         
             <CardUI 
-
+ 
                 //weather Aplications
                 weatherImage = { weatherImage }
                 weatherTittle = { 'Aplicacion del Clima' } 

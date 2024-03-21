@@ -12,6 +12,7 @@ export const AppRoutes = () => {
 
     return (
         <ContextProvider>
+            
             <Routes>
                 <Route path="/" element= { <PageHome></PageHome> }></Route>
 
