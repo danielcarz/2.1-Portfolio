@@ -1,7 +1,10 @@
 import React, { useContext } from "react";
 
 import { Contex } from '../Hooks/Contex/CreateContext';
- 
+
+//childs
+import { EmailSystem } from './ChildsComponents/index';
+  
 
 //sass
 import '../../Sass/SassComponents/SassParentsComponents/3.0-Footer.scss';
@@ -53,7 +56,7 @@ export const Footer = () => {
                 
                 
                 
-                </div>  */}
+                </div> 
 
                 <button onClick={ async () => {
 
@@ -62,7 +65,9 @@ export const Footer = () => {
                    
                    console.log(resToJson); 
 
-                } } >Click to server</button>  
+                } } >Click to server</button>   */}
+
+                <EmailSystem></EmailSystem>
 
             
             </section> 

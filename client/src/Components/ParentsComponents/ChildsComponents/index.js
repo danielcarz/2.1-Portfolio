@@ -4,3 +4,7 @@ export * from './1.2-ChildWelcomeAside';
 
 //childs my projects
 export * from './2.1-ChildMyProjectCards';
+
+
+//childs footer
+export * from './3.1-EmailSystem';  
