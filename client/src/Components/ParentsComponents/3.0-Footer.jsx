@@ -23,9 +23,9 @@ export const Footer = () => {
                 
             </section>
 
-            <section  className="footerWrapper two"  >
+           <section  className="footerWrapper two"  >
 
-                <div className="wrapperSocialInfo">
+                {/* <div className="wrapperSocialInfo">
                     
                     <section className="socialInfo" >
 
@@ -53,10 +53,12 @@ export const Footer = () => {
                 
                 
                 
-                </div> 
+                </div>  */}
+
+                <button>Click to server</button>
 
             
-            </section>
+            </section> 
              
             <section  className="footerWrapper three"  > 
 
