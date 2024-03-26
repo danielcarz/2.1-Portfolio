@@ -55,7 +55,14 @@ export const Footer = () => {
                 
                 </div>  */}
 
-                <button>Click to server</button>
+                <button onClick={ async () => {
+
+                   const res = await fetch(`http://localhost:3009`);
+                   const resToJson = await res.json();
+                   
+                   console.log(resToJson);
+                   
+                } } >Click to server</button>
 
             
             </section> 
