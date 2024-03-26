@@ -1,12 +1,14 @@
 import  express  from "express";
 import cors from 'cors';
 
+import { FRONTED_URL, PORT } from './config.js';
+
 const app = express();
 
-app.use( cors( { origin: 'http://localhost:5173' } ) ); 
+app.use( cors( { origin: FRONTED_URL } ) ); 
 
 app.get('/', ( req, res ) => {
-    res.send( { message: 'hello server' });
+    res.send( { message: 'hello serverr' });
 });
 
-app.listen(3008, () => { console.log('hello server') })
+app.listen( PORT , () => { console.log('hello server') })
