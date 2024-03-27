@@ -24,7 +24,7 @@ export const CardUI = (
 
                 <div className="wrapperTittleProject" >
 
-                    <a target="_blank" rel="noopener noreferrer" href="https://weather-aplication-six.vercel.app/">  <h2> Weather Application </h2>  </a>  
+                    <a target="_blank" rel="noopener noreferrer" href="https://weather-aplication-six.vercel.app/">  <h2> Aplicacion del Clima </h2>  </a>  
                     
                 </div>
 

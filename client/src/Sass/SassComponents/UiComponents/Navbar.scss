@@ -94,58 +94,13 @@
 
 @mixin styles_tablets () {
   
-  width: 100%;
-  height: 70px;
-
-  margin-left: 20px;
-
-  
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  .active{
-     
-  };
-
-  .social-Wrapper{
-
-    max-width: 100%; // Adjust this value as needed
-    height: 50px;
-
-    margin-right: 30px;
-    padding: 0;
-
-    display: flex;
-
-    
-
-    .socialEmoticon-wrapper{
-
-      display: flex;
-      align-items: center; // Centra verticalmente las imágenes
-      
-      
-
-      img{
-        width: 30px;
-        height: 30px;
-
-        margin: 10px;
-      }
-    }
-  }
-}
-
-@mixin styles_desktop () {
-
     width: 100%;
-    height: 130px;
+    height: 110px;
 
    
     text-decoration: none;
+
+    position: absolute;
     
 
     display: flex;
@@ -158,32 +113,78 @@
     text-decoration: none;
     }
 
-    .wrapperLogo {
+    .logoContainer{
 
-      width: 150px;
+      position: relative;
+      top: -5px;
+
+      height: 50px;
       height: auto;
 
-      padding: 5px;
-      margin: 0;
 
-      display: flex;
-
-     
-
-    
+   
+      
+      .wrapperLogo {
   
-      img {
-        width: 100%;
-        height: 100px;
-      }
+        width: 150px;
+        height: auto;
 
+        margin: 0;
+
+        
+
+        display: flex;
+        justify-content: center;
+
+        
+  
+ 
+        
+
+          img {
+            position: relative;
+            width: 30%;
+            height: 50px;
+            padding: 5px;
+            overflow: hidden;
+          }
+          
+       
+          
+          img:hover {
+            border: 2px dotted wheat; /* Cambio de color del borde al pasar el ratón por encima */
+          
+           animation: voltear 0.5s ease-in-out forwards, volver 0.5s ease-in-out forwards 0.5s; /* Aplica la animación de volteo durante 4 segundos y luego la animación de vuelta después de 4 segundos */
+}
+          }
+
+          @keyframes volver {
+            0% {
+              transform: rotateY(180deg); 
+              background-color: none; 
+            }
+
+            50% {
+              transform: rotateY(90deg); /* La página regresa a la mitad de la rotación */
+              background-color: transparent; 
+            }
+
+            100% {
+              transform: rotateY(0deg); /* La página vuelve a su posición original */
+              background-color: none /* El color de fondo vuelve a ser el original */
+            }
+          }
+       
+          
+      
     }
 
     p{
-
-      
+     
       text-decoration: none;
       text-align: center;
+
+      margin: 0;
       
 
     }
@@ -206,7 +207,7 @@
  
       display: flex;
 
-      border: 1px solid red;
+    
 
       .buttonMode{
 
@@ -247,6 +248,165 @@
         }
       }
     }
+}
+
+
+@mixin styles_desktop () {
+
+  width: 100%;
+  height: 110px;
+
+ 
+  text-decoration: none;
+
+  position: absolute;
+  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  a{
+
+  text-decoration: none;
+  }
+
+  .logoContainer{
+
+    position: relative;
+    top: -5px;
+
+    height: 50px;
+    height: auto;
+
+
+ 
+    
+    .wrapperLogo {
+
+      width: 150px;
+      height: auto;
+
+      margin: 0;
+
+      
+
+      display: flex;
+      justify-content: center;
+
+      
+
+
+      
+
+        img {
+          position: relative;
+          width: 30%;
+          height: 50px;
+          padding: 5px;
+          overflow: hidden;
+        }
+        
+     
+        
+        img:hover {
+          border: 2px dotted wheat; /* Cambio de color del borde al pasar el ratón por encima */
+        
+         animation: voltear 0.5s ease-in-out forwards, volver 0.5s ease-in-out forwards 0.5s; /* Aplica la animación de volteo durante 4 segundos y luego la animación de vuelta después de 4 segundos */
+}
+        }
+
+        @keyframes volver {
+          0% {
+            transform: rotateY(180deg); 
+            background-color: none; 
+          }
+
+          50% {
+            transform: rotateY(90deg); /* La página regresa a la mitad de la rotación */
+            background-color: transparent; 
+          }
+
+          100% {
+            transform: rotateY(0deg); /* La página vuelve a su posición original */
+            background-color: none /* El color de fondo vuelve a ser el original */
+          }
+        }
+     
+        
+    
+  }
+
+  p{
+   
+    text-decoration: none;
+    text-align: center;
+
+    margin: 0;
+    
+
+  }
+
+  .active{
+     
+
+     
+  };
+
+
+
+  .social-Wrapper{
+
+    max-width: 100%; // Adjust this value as needed
+    height: auto;
+
+    margin-right: 30px;
+    padding: 0;
+
+    display: flex;
+
+  
+
+    .buttonMode{
+
+      margin-right: 100px;
+      margin-top: 20px;
+
+      border: none;
+
+      background: none; 
+
+      cursor: pointer;
+
+      bottom: 60px ;
+      
+
+      img{
+        width: 30px;
+        height: 30px;
+
+        margin: 10px;
+      }
+    } 
+   
+    
+
+    .socialEmoticon-wrapper{
+
+      display: flex;
+      align-items: center; // Centra verticalmente las imágenes
+      
+      
+
+      img{
+        width: 30px;
+        height: 30px;
+
+        margin: 10px;
+      }
+    }
+  }
 }
 
 

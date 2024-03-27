@@ -18,8 +18,8 @@ import maintenanceImage from '../../../public/assets/carouselImages/maintence.gi
 import giftResponsive from '../../../public/assets/responsive-design.gif';
 
 //navbar
-import dIcon from '../../../public/assets/d.png';
-import cIcon from '../../../public/assets/c.png';
+import dIcon from '../../../public/assets/letter-d.png'
+import cIcon from '../../../public/assets/letter-c.png'; 
 import dc from '../../../public/assets/dc.png';
 import lightDark from '../../../public/assets/lightDarkMode.png';
 
