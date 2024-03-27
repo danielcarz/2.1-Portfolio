@@ -63,7 +63,14 @@
     display: flex;
     justify-content: space-around;
 
-    
+    .buttonMode{
+
+      border: none;
+
+      background-color: red; 
+
+      cursor: pointer;
+    }
    
 
     .socialEmoticon-wrapper{
@@ -192,13 +199,37 @@
     .social-Wrapper{
 
       max-width: 100%; // Adjust this value as needed
-      height: 50px;
+      height: auto;
 
       margin-right: 30px;
       padding: 0;
  
       display: flex;
 
+      border: 1px solid red;
+
+      .buttonMode{
+
+        margin-right: 100px;
+        margin-top: 20px;
+
+        border: none;
+  
+        background: none; 
+  
+        cursor: pointer;
+
+        bottom: 60px ;
+        
+
+        img{
+          width: 30px;
+          height: 30px;
+
+          margin: 10px;
+        }
+      }
+     
       
 
       .socialEmoticon-wrapper{

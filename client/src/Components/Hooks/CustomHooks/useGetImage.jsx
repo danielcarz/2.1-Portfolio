@@ -21,6 +21,7 @@ import giftResponsive from '../../../public/assets/responsive-design.gif';
 import dIcon from '../../../public/assets/d.png';
 import cIcon from '../../../public/assets/c.png';
 import dc from '../../../public/assets/dc.png';
+import lightDark from '../../../public/assets/lightDarkMode.png';
 
 //habilities
 import bootstrapIcon from '../../../public/assets/technologyIcons/bootstrap.png';
@@ -55,7 +56,8 @@ export const useGetImage = () => {
        //navbar
        dIcon,
        cIcon,
-       dc, 
+       dc,
+       lightDark, 
 
        //habilities
        bootstrapIcon,

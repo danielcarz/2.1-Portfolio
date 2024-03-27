@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+
+//context
+import { Contex } from "../Components/Hooks/Contex/CreateContext";
 
 // components
 
@@ -10,7 +13,10 @@ import '../Sass/SassPages/1.0-Home.scss';
 
 export const PageHome = () => {
 
-    const [isButtonPressed, setIsButtonPressed] = useState(false);
+    const { isTrue } = useContext( Contex );
+    console.log( isTrue )
+
+  /*   const [isButtonPressed, setIsButtonPressed] = useState(false);
     console.log( isButtonPressed );
 
     const handleButtonClick = () => {
@@ -22,15 +28,15 @@ export const PageHome = () => {
         }else{
             setIsButtonPressed((prevState) => !prevState);
         }
-    };
+    }; */
 
     return(
 
-        <div className= { ( isButtonPressed ) ? 'darkMode' : 'whiteMode' } >
+        <div className= { ( isTrue ) ? 'darkMode' : 'whiteMode' } >
 
             <Navbar></Navbar>
  
-            <Welcome></Welcome>
+            <Welcome></Welcome> 
 
             <MyProjects></MyProjects>
 
@@ -38,7 +44,7 @@ export const PageHome = () => {
  
             <Footer></Footer>
 
-            <button onClick={  handleButtonClick }>click !</button>
+           
         </div>
     )
 }

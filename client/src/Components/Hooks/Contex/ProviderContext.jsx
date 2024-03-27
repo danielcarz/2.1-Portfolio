@@ -1,10 +1,16 @@
 import { Contex } from "./CreateContext";
 
 //custom hook
-import { useGetImage } from '../CustomHooks/index';
+import { useGetImage, useBoolean } from '../CustomHooks/index';
+
+
 
 export const ContextProvider = ( { children } ) => {
- 
+    
+    //boolean
+    const { isTrue, setIsTrue, toggle } = useBoolean();
+
+
     //images Projects
     const { 
             weatherImage,
@@ -32,6 +38,8 @@ export const ContextProvider = ( { children } ) => {
             cIcon,
 
             dc,
+
+            lightDark, 
             
             //technology icons
             bootstrapIcon,
@@ -73,6 +81,7 @@ export const ContextProvider = ( { children } ) => {
                     dIcon,
                     cIcon,
                     dc,
+                    lightDark, 
 
                     //habilities icons
                     bootstrapIcon,
@@ -81,7 +90,12 @@ export const ContextProvider = ( { children } ) => {
                     jspIcon,
                     mysqlpIcon,
                     nodepIcon,
-                    reactpIcon
+                    reactpIcon,
+
+                    isTrue, 
+                    setIsTrue,
+                    toggle 
+
 
 
                  

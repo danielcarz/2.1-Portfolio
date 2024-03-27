@@ -9,13 +9,26 @@ import '../../Sass/SassComponents/UiComponents/Navbar.scss';
 
 export const Navbar = () => {
 
-   const { linkedinImage, gitHubImage, cvImage, curriculumVitae, dIcon, cIcon, dc } = useContext( Contex );
+   const { linkedinImage, gitHubImage, cvImage, curriculumVitae, dc,   lightDark,   isTrue, setIsTrue, toggle  } = useContext( Contex );
+
     
+
+   const  changeColorInterface = () => {
+        
+    if( isTrue ){
+        toggle();
+
+    }else{
+
+        toggle();
+    }
+    
+   }
 
     return (
         <nav className='navbar' >
 
-         {/*    <Link className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` } to= "/" >
+        <Link className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` } to= "/" >
                  
                  <figure className='wrapperLogo'>
 
@@ -25,12 +38,24 @@ export const Navbar = () => {
                 </figure>
                 <p> <b> DaniCode  </b> </p> 
 
-            </Link> */}
+            </Link> 
 
-           
+        {/*    
+            <Link onClick={ changeColorInterface } to= "/" >
+                 
+                 <figure className = ' '>
 
+                     <img src= { lightDark } alt="logo" /> 
+                     
+                     
+                </figure>
+                
+
+            </Link>  */}
     
             <div className='social-Wrapper'>
+
+                <button onClick={ changeColorInterface } className='buttonMode' > <img src= { lightDark } alt="" /> </button>
  
                 <figure className='socialEmoticon-wrapper' >                 
                     <a  target="_blank" rel="noopener noreferrer"  href='https://github.com/danielcarz'>  <img src= { gitHubImage } alt="d icon"/> </a>
