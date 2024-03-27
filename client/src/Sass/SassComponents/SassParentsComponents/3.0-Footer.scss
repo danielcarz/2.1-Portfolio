@@ -51,10 +51,6 @@
 
                 text-align: center;
 
-
-                font-size: 25px;
-
-                
             }
 
             .wrapperTitle{
@@ -89,30 +85,23 @@
                 height: 30%;
                 width: 90%;
 
-                font-size: 18px;
-                
-
-               margin: 0 auto;
-
-               
+                margin: 0 auto;
+       
 
                 .socialTittle{
 
                     padding-top: 10px;
 
-                    font-size: 18px;
+                    
                 }
 
                 .wrapperCv{
-                    
-                
-
-                   
+                               
 
                     .cvIcon{
     
                         height: auto;
-                        font-size: 15px;
+                        
     
                         img{
     
@@ -153,12 +142,14 @@
                 
         
                 img{
+
                     width: 30px;
                     height: 30px;
         
                     margin: 10px;
                 }
-                }
+
+            }
         }
 
 
@@ -167,12 +158,12 @@
     }
     
     
-  }
+}
   
-  @mixin styles_tablets () {
+@mixin styles_tablets () {
 
     display: flex;
-   
+
 
     .footerWrapper{
 
@@ -181,8 +172,8 @@
 
         height: auto; 
         width: 100%;
-     
-      
+        
+        
 
         //section one
         .wrapperInfo{
@@ -194,18 +185,14 @@
 
             width: 100%;
 
-          
+            
 
             .footerTitle{
 
                 padding: 25px;
 
                 text-align: center;
-
-
-                font-size: 18px;
-
-               
+            
             }
 
             .wrapperTitle{
@@ -217,7 +204,7 @@
 
             
 
-               
+                
             }  
         }
 
@@ -237,26 +224,26 @@
 
                 height: 30%;
 
-                font-size: 18px;
+            
 
 
                 .socialTittle{
-                    font-size: 18px;
+                    
                 }
 
                 .wrapperCv{
                     
                 
 
-                   
+                    
 
                     .cvIcon{
-    
+
                         height: auto;
-                        font-size: 15px;
-    
+                    
+
                         img{
-    
+
                             width: 22px; 
                             height: 25px;
             
@@ -270,7 +257,7 @@
             }
         }
 
-       
+        
         .wrapperSocialIcon{
             
             width: 100%;
@@ -284,7 +271,7 @@
 
             margin-bottom: 5px;  
             
-          
+            
             
             .wrapperIcons{
 
@@ -299,19 +286,19 @@
         
                     margin: 10px;
                 }
-                }
+            }
         }
 
 
-       
+        
 
     }
-   
-  }
-  
-  @mixin styles_desktop () {
 
-    
+}
+  
+@mixin styles_desktop () {
+
+
 
     display: flex;
     flex-direction: row;
@@ -330,8 +317,8 @@
 
         height: auto;
         width: 100%;
-     
-     
+        
+        
 
         //section one
         .wrapperInfo{
@@ -343,16 +330,13 @@
 
             width: 100%;
 
-           
+            
 
             .footerTitle{
 
                 padding: 25px;
 
                 text-align: center;
-
-
-                font-size: 25px;
 
                 
             }
@@ -364,7 +348,7 @@
                 margin-left: 40%;
                 margin-top: 17px;   
 
-              
+                
 
                 
             }  
@@ -384,20 +368,14 @@
 
                 height: 30%;
 
-               
-
                 .wrapperCv{
                     
-                
-
-                   
-
                     .cvIcon{
-    
+
                         height: auto;
-    
+
                         img{
-    
+
                             width: 30px;
                             height: 30px;
             
@@ -423,34 +401,31 @@
 
             margin-bottom: 5px;  
             
-         
-            
+  
             .wrapperIcons{
 
                 display: flex;
                 align-items: center; // Centra verticalmente las imágenes
-                
-                
-        
+
                 img{
-                  width: 30px;
-                  height: 30px;
+                    width: 30px;
+                    height: 30px;
         
-                  margin: 10px;
+                    margin: 10px;
                 }
-              }
+                }
         }
-       
+        
 
     }
-  }
+}
   
   
   
   
   .footerContainer{
 
-    color: rgba(127, 230, 128, 0.572);
+  
     
     display: flex;
     flex-direction: column;
@@ -458,7 +433,7 @@
     align-items: center;
 
 
-    background: black;
+
 
 
 

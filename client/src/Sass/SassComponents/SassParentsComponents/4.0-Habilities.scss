@@ -96,11 +96,6 @@
   
 .iconsContainer{
 
-    color: rgba(127, 230, 128, 0.572);
-
- 
-
-
 
 @include media-query($media_phone){ 
     @include styles_phone();

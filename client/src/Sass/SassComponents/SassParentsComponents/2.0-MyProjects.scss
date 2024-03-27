@@ -12,24 +12,23 @@
     
   }
   
-  @mixin styles_tablets () {
-    
-    
-  }
+@mixin styles_tablets () {
   
-  @mixin styles_desktop () {
-   
-    height: 500px;
+  
+}
+  
+@mixin styles_desktop () {
+  
+  height: 500px;
 
-  }
+}
   
    
   
   
   .myProjectsContainer{
 
-    background-color: black;
-    color: rgba(127, 230, 128, 0.572); 
+  
     
   
     @include media-query($media_phone){
