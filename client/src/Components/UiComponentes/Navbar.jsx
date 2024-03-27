@@ -15,7 +15,7 @@ export const Navbar = () => {
     return (
         <nav className='navbar' >
 
-            <Link className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` } to= "/" >
+         {/*    <Link className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` } to= "/" >
                  
                  <figure className='wrapperLogo'>
 
@@ -25,7 +25,7 @@ export const Navbar = () => {
                 </figure>
                 <p> <b> DaniCode  </b> </p> 
 
-            </Link>
+            </Link> */}
 
            
 

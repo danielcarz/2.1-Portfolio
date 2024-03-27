@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // components
 
@@ -10,9 +10,24 @@ import '../Sass/SassPages/1.0-Home.scss';
 
 export const PageHome = () => {
 
+    const [isButtonPressed, setIsButtonPressed] = useState(false);
+    console.log( isButtonPressed );
+
+    const handleButtonClick = () => {
+        console.log(' executed')
+
+        if( isButtonPressed ){
+            setIsButtonPressed((prevState) => !prevState);
+
+        }else{
+            setIsButtonPressed((prevState) => !prevState);
+        }
+    };
+
     return(
 
-        <div className="Pageone" >
+        <div className= { ( isButtonPressed ) ? 'darkMode' : 'whiteMode' } >
+
             <Navbar></Navbar>
  
             <Welcome></Welcome>
@@ -22,6 +37,8 @@ export const PageHome = () => {
             <Habilities></Habilities>
  
             <Footer></Footer>
+
+            <button onClick={  handleButtonClick }>click !</button>
         </div>
     )
 }

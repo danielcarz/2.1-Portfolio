@@ -36,24 +36,52 @@
   
   
   
-  .Pageone{
+.darkMode{
 
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 
-    
-    
+  color: wheat;
+ 
+  background-color: #212121;
+  transition: background-color 0.5s ease; 
   
-    @include media-query($media_phone){
-      @include styles_phone();
-    }
-  
-    @include media-query($media_tablet){
-      @include styles_tablets();
-    }
-  
-    @include media-query($media_desktop){
-      @include styles_desktop();
-    }
-  
+
+  @include media-query($media_phone){
+    @include styles_phone();
   }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}
+
+.whiteMode{ 
+
+  padding: 0;
+  margin: 0;
+
+  color: black;
+
+  background-color: rgb(243, 240, 233);
+  transition: background-color 0.5s ease; 
+  
+
+  @include media-query($media_phone){
+    @include styles_phone();
+  }
+
+  @include media-query($media_tablet){
+    @include styles_tablets();
+  }
+
+  @include media-query($media_desktop){
+    @include styles_desktop();
+  }
+
+}
