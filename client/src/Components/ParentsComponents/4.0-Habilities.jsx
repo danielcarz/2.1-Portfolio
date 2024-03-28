@@ -7,13 +7,13 @@ import { Contex } from '../Hooks/Contex/CreateContext';
 import '../../Sass/SassComponents/SassParentsComponents/4.0-Habilities.scss';
 
 export const Habilities = () => {  
-    
+     
     const {  bootstrapIcon, csspIcon, gitHubIcon, jspIcon, mysqlpIcon, nodepIcon, reactpIcon } = useContext( Contex );
 
     return( 
 
     <section className="iconsContainer" >
-        
+
         <h2> Habilidades: </h2>
 
        <section className="iconsWrapper" >
