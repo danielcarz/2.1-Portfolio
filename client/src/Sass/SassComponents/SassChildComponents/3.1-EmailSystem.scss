@@ -1,0 +1,63 @@
+//VARIABLES (it musb be in the first position)
+@use '../../Mixins/Variables.scss' as *;
+
+//MEDIA
+@import '../../Mixins/MediaQueries/MediaQueries.scss';
+
+
+@mixin styles_phone () {
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: none;
+
+    display: flex;
+    flex-direction: column;
+
+    .input{
+        
+        width: 50%;
+
+        border-radius: 10px;
+
+    }
+
+}
+  
+@mixin styles_tablets () {
+
+width: 100%;
+
+    
+}
+  
+@mixin styles_desktop () {
+
+    width: 100%;
+
+
+    
+}
+  
+  
+  
+  
+.formContainer{
+
+
+
+@include media-query($media_phone){
+    @include styles_phone();
+}
+
+@include media-query($media_tablet){
+    @include styles_tablets();
+}
+
+@include media-query($media_desktop){
+    @include styles_desktop();
+}
+
+}

@@ -7,7 +7,11 @@
 
 @mixin styles_phone () {
 
-  margin-top: 10px;
+    margin-top: 10px;
+
+    h2{
+        margin: 15px;
+    }
 
   
 
@@ -18,7 +22,7 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
 
-       
+        padding: 10px;
     
         .icon{
 

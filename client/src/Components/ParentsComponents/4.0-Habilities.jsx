@@ -13,6 +13,7 @@ export const Habilities = () => {
     return( 
 
     <section className="iconsContainer" >
+        
         <h2> Habilidades: </h2>
 
        <section className="iconsWrapper" >
