@@ -26,7 +26,7 @@ export const ContextProvider = ( { children } ) => {
             cvImage,
 
             curriculumVitae,
-
+ 
             maintenanceImage,
 
             giftResponsive, 
@@ -39,7 +39,7 @@ export const ContextProvider = ( { children } ) => {
 
             dc,
 
-            lightDark, 
+            lightDark,  
             
             //technology icons
             bootstrapIcon,
