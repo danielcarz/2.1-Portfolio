@@ -159,6 +159,8 @@
 
     .wrapperProject{
 
+     
+      
       .wrapperTittleProject{
 
         width: 300px;
@@ -178,7 +180,166 @@
           
         }
       }
+
+      .aboutProject{ 
+        
+        display: flex;
+
+        height: 150px;
+    
+
+        border: 1px solid rgb(247, 75, 8);
+
+        .card {
+    
+          position: relative;
+    
+          width: 179px; 
+          height: auto;  
+
+          background: none;
+    
+          perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
+          
+          
+          cursor: pointer;
+          border:none;
+   
+          background-color: none;
       
+          .card-inner {
+    
+              position: absolute;
+    
+              width: 100%;
+              height: auto;
+    
+              
+    
+              transition: transform 0.5s; /* Agrega una transición suave */
+              transform-style: preserve-3d;
+      
+              .card-front, .card-back {
+  /* 
+                  padding: 10px; */
+    
+                  width: 100%;
+                  height: auto;
+                  position: absolute;
+                  backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
+  
+                  background-color: none;
+  
+                  border: 2px solid rgb(10, 10, 10);
+              }
+      
+              .card-front {
+                  
+                  width: 100%;
+                  height: auto;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+  
+                  
+  
+                  /* background-color: #212121; */
+                  background-color: red;
+                  border: 1px solid white;
+                  border-radius: 10px;
+                  
+    
+                  img{
+    
+                    width: 100%; 
+                    height: auto;   
+                    
+                   /*  padding: 10px; */
+    
+                  }
+              }
+      
+              .card-back {
+    
+                    
+
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-around;
+                  align-items: center;
+
+                 
+                  transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
+    
+                  .WebButton{
+                    
+                    height: auto;
+                    width: 100%;
+  
+                    border-radius: 15px;
+    
+                    a{
+    
+                      text-decoration: none;
+                    }
+    
+                  }
+    
+              }
+          }
+      
+          &:hover .card-inner {
+              transform: rotateY(180deg); /* Rota la tarjeta en el eje Y al hacer hover */
+          }
+        }
+      }
+      
+
+    }
+
+
+}
+  
+@mixin styles_desktop () {
+
+
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 20px;
+
+  justify-content: center;  
+
+  .wrapperProject{
+
+    border: 1px solid rgb(17, 235, 28);
+
+    
+
+    .wrapperTittleProject{
+
+      width: 100%;
+      
+      margin-left: 10px;
+      
+      font-size: 55px;
+      
+      a{
+
+        list-style: none;
+        text-decoration: none;
+
+
+
+        
+      }
+    }
+
+    .aboutProject{
+
+      display: flex;
+ 
       .card {
   
         position: relative;
@@ -191,8 +352,10 @@
         
         cursor: pointer;
         border:none;
- 
+  
         background-color: none;
+  
+         
     
         .card-inner {
   
@@ -207,17 +370,17 @@
             transform-style: preserve-3d;
     
             .card-front, .card-back {
-
+  
                 padding: 10px;
   
                 width: 100%;
                 height: 100%;
                 position: absolute;
                 backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
-
-                background-color: none;
-
-                border: 2px solid rgb(10, 10, 10);
+  
+                background-color: none; 
+  
+                border: 2px solid #212121;
             }
     
             .card-front {
@@ -227,9 +390,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
+  
                 
-
+  
                 background-color: #212121;
                 border: 1px solid white;
                 border-radius: 10px;
@@ -250,8 +413,8 @@
                 
                 display: flex;
                 flex-direction: column;
+                
                 justify-content: space-around;
-                align-items: center;
   
                 transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
   
@@ -259,8 +422,8 @@
                   
                   height: auto;
                   width: 100%;
-
-                  border-radius: 15px;
+  
+                  border-radius: 10px;
   
                   a{
   
@@ -278,139 +441,7 @@
       }
 
     }
-
-
-}
-  
-@mixin styles_desktop () {
-
-
-  width: 100%;
-
-  display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
-  gap: 20px;
-
-  justify-content: center;  
-
-  .wrapperProject{
-
-    .wrapperTittleProject{
-
-      width: 100%;
-      
-      margin-left: 10px;
-      
-      font-size: 55px;
-      
-      a{
-
-        list-style: none;
-        text-decoration: none;
-
-
-
-        
-      }
-    }
     
-    .card {
-
-      position: relative;
-
-      width: 179px; 
-      height: 179px;
-
-      perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
-      margin: 20px;
-      
-      cursor: pointer;
-      border:none;
-
-      background-color: none;
-  
-      .card-inner {
-
-          position: absolute;
-
-          width: 100%;
-          height: 100%;
-
-          
-
-          transition: transform 0.5s; /* Agrega una transición suave */
-          transform-style: preserve-3d;
-  
-          .card-front, .card-back {
-
-              padding: 10px;
-
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
-
-              background-color: none; 
-
-              border: 2px solid #212121;
-          }
-  
-          .card-front {
-              
-              width: 100%;
-              height: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-              
-
-              background-color: #212121;
-              border: 1px solid white;
-              border-radius: 10px;
-              
-
-              img{
-
-                width: 240p;
-                height: 210px;
-                
-                padding: 10px;
-
-              }
-          }
-  
-          .card-back {
-
-              
-              display: flex;
-              flex-direction: column;
-              
-              justify-content: space-around;
-
-              transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
-
-              .WebButton{
-                
-                height: auto;
-                width: 100%;
-
-                border-radius: 10px;
-
-                a{
-
-                  text-decoration: none;
-                }
-
-              }
-
-          }
-      }
-  
-      &:hover .card-inner {
-          transform: rotateY(180deg); /* Rota la tarjeta en el eje Y al hacer hover */
-      }
-    }
 
   }
 
@@ -422,12 +453,18 @@
     
 }
   
-  
+
   
   
 .cardsWrapper{
 
-      
+    .wrapperProject{
+
+      .card{
+
+        display: flex
+      }
+    }
 
   @include media-query($media_phone){
     @include styles_phone();
