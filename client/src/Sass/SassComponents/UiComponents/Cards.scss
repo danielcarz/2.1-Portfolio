@@ -112,15 +112,20 @@
               
               display: flex;
               flex-direction: column;
-              justify-content: center;
+              justify-content: space-around;
               align-items: center;
 
               transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
 
               .WebButton{
                 
-                height: 40px;
-                width: 150px;
+                height: auto;
+                width: 100%;
+
+                border: 1px solid #212121;;
+                border-radius: 15px;
+
+               
 
                 a{
 
@@ -253,7 +258,7 @@
                 .WebButton{
                   
                   height: 40px;
-                  width: 150px;
+                  width: auto;
   
                   a{
   
