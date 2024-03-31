@@ -1,10 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useRef, useContext } from 'react';
 import emailjs from '@emailjs/browser';
+
+//contex
+import { Contex } from '../../Hooks/Contex/CreateContext';
 
 //styles
 import '../../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
 
 export const EmailSystem = () => { 
+
+  const { isTrue } = useContext( Contex );
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -29,15 +35,15 @@ export const EmailSystem = () => {
       
       <h2> Dejame un mensaje </h2>
 
-      <label className='label'>Name</label>
+     {/*  <label className='label'>Name</label>
       <input  className='input' type="text" name="user_name" />
 
       <label>Email</label>
-      <input className='input' type="email" name="user_email" />
-
-      <label>Message</label>
-      <textarea name="message" />
-      <input className='input' type="submit" value="Send" />
+      <input className='input' type="email" name="user_email" /> */}
+ 
+      
+      <textarea name="message" className= { ( isTrue ) ? 'darkMode' : 'lightMode' } placeholder="Escribe tu mensaje aqui"/>
+      <input  className= { ( isTrue ) ? 'darkModeButton' : 'lightModeButton' }  type="submit" value="Send" />
 
     </form>
   );

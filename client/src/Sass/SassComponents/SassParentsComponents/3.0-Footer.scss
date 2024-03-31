@@ -298,12 +298,15 @@
   
 @mixin styles_desktop () {
 
-
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    height: auto;
+
+
+
 
 
     .footerWrapper{
@@ -317,6 +320,8 @@
 
         height: auto;
         width: 100%;
+
+   
         
         
 
@@ -423,31 +428,26 @@
   
   
   
-  .footerContainer{
+.footerContainer{
 
-  
-    
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 
+@include media-query($media_phone){ 
+    @include styles_phone();
+}
 
+@include media-query($media_tablet){
+    @include styles_tablets();
+} 
 
+@include media-query($media_desktop){
+    @include styles_desktop();
+}
 
-
-  
-    @include media-query($media_phone){ 
-      @include styles_phone();
-    }
-  
-    @include media-query($media_tablet){
-      @include styles_tablets();
-    }
-  
-    @include media-query($media_desktop){
-      @include styles_desktop();
-    }
-  
-  }
+}

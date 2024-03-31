@@ -7,20 +7,55 @@
 
 @mixin styles_phone () {
 
-    width: 100%;
-
-    padding: 10px;
-
-    background-color: none;
-
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
-    .input{
+   
+
+    textarea{
+
+        height: 100px;
+
+        padding: 10px;
+
+        margin-bottom: 30px;
+
+        .darkMode{
+           
+          
+        }
+        .lightMode{
+           
+        }
+    }
+
+    textarea:hover {
         
-        width: 50%;
+    }
 
-        border-radius: 10px;
+    .darkModeButton{
+
+        width: 70%;
+       
+        margin: 0 auto;
+
+    }
+
+    .lightModeButton{
+
+        width: 70%;
+
+        margin: 0 auto;
+
+    }
+
+    .lightMode{
+
+    }
+
+    .darkMode{
+
 
     }
 
@@ -28,14 +63,129 @@
   
 @mixin styles_tablets () {
 
-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80%;
+
+  
+
+    textarea{
+
+        margin-bottom: 30px;
+
+        width: 100%;
+        height: 120px;  
+
+
+        .darkMode{
+           
+           
+        }
+        .lightMode{
+           
+        }
+    }
+
+    textarea:hover {
+       
+    }
+
+    .darkModeButton{
+
+        width: 20%; 
+
+    }
+
+    .lightModeButton{
+
+        height: 50px;
+
+        width: 40%;
+
+        margin: 0 auto; 
+
+        margin-bottom: 10px;
+
+        
+
+    }
+
+    .lightMode{
+
+    }
+
+    .darkMode{
+
+
+    }
 
     
 }
   
 @mixin styles_desktop () {
 
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80%;
+
+   
+
+    textarea{
+
+        margin-bottom: 30px;
+
+        width: 100%;
+        height: 120px;
+        
+        padding: 10px;
+
+
+        .darkMode{
+           
+           
+        }
+        .lightMode{
+           
+        }
+    }
+
+    textarea:hover {
+       
+    }
+
+    .darkModeButton{
+
+        width: 50%;
+        height: 50px; 
+
+    }
+
+    .lightModeButton{
+
+        height: 50px;
+
+        width: 50%;
+
+        margin: 0 auto; 
+
+        margin-bottom: 10px;
+
+        
+
+    }
+
+    .lightMode{
+
+    }
+
+    .darkMode{
+
+
+    }
 
 
     
@@ -45,6 +195,66 @@ width: 100%;
   
   
 .formContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    textarea{
+
+        background: none;
+
+        border: 1 px solid wheat; 
+        border-radius: 15px;
+
+        .darkMode{
+            color: wheat;
+        }
+        .lightMode{
+            color: black;
+        }
+    }
+ 
+    textarea:hover {
+        border: 1px solid #333;
+    }
+
+    .darkModeButton{
+
+
+        background: none;
+        color: wheat; 
+
+        border: 1px solid  wheat;
+        border-radius: 15px; 
+
+    }
+
+    .lightModeButton{
+
+        
+
+        background: none;
+        color: #212121;; 
+
+        border: 1px solid  #212121;;
+        border-radius: 15px; 
+
+    }
+
+    .lightMode{
+
+        background: none;
+        color: black; 
+
+        border: 1px solid  black;
+        border-radius: 15px; 
+    }
+
+    .darkMode{
+
+
+    }
 
 
 
