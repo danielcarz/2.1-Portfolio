@@ -389,11 +389,11 @@
   
         position: relative;
   
-        width: 220px; 
-        height: 210px;
+        min-width: 180px;  
+        min-height: 180px;
   
         perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
-        margin: 20px;
+        
         
         cursor: pointer;
         border:none;
