@@ -41,106 +41,135 @@
       }
     }
     
-    .card {
+    .aboutProject{
 
-      margin: 0 auto;
+      display: flex;
 
-      width: 179px; 
-      height: 179px;
-
-      perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
-      margin: 20px;
-      
-      cursor: pointer;
-      border:none;
-
-      background-color: none;
+      .card {
   
-      .card-inner {
+        margin: 0 auto;
 
-          position: absolute;
-
-          width: 100%;
-          height: 100%;
-
-          
-
-          transition: transform 0.5s; /* Agrega una transición suave */
-          transform-style: preserve-3d;
+        
   
-          .card-front, .card-back {
-
-              padding: 10px;
-
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
-
-              background-color: none;
-
-              border: 2px solid rgb(10, 10, 10);
-          }
+        width: 210px; 
+        height: 179px;
   
-          .card-front {
-              
-              width: 100%;
-              height: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
+        perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
+        
+        
+        cursor: pointer;
+        border:none;
+  
+        background-color: none;
+    
+        .card-inner {
+  
+            position: absolute;
+  
+            width: 100%;
+            height: 100%;
 
-              
-
-              background-color: #212121;
-              border: 1px solid white;
-              border-radius: 10px;
-              
-
-              img{
-
-                width: 240p;
-                height: 210px;
-                
+            border: 1px solid red;
+            
+  
+            transition: transform 0.5s; /* Agrega una transición suave */
+            transform-style: preserve-3d;
+    
+            .card-front, .card-back {
+  
                 padding: 10px;
-
-              }
-          }
   
-          .card-back {
-
-              
-              display: flex;
-              flex-direction: column;
-              justify-content: space-around;
-              align-items: center;
-
-              transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
-
-              .WebButton{
-                
-                height: auto;
                 width: 100%;
-
-                border: 1px solid #212121;;
-                border-radius: 15px;
-
-               
-
-                a{
-
-                  text-decoration: none;
-                }
-
-              }
-
-          }
-      }
+                height: 100%;
+                position: absolute;
+                backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
   
-      &:hover .card-inner {
-          transform: rotateY(180deg); /* Rota la tarjeta en el eje Y al hacer hover */
+                background-color: none;
+  
+                border: 2px solid rgb(10, 10, 10);
+            }
+    
+            .card-front {
+                
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                
+  
+                background-color: #212121;
+                border: 1px solid white;
+                border-radius: 10px;
+                
+  
+                img{
+  
+                  width: 200px;
+                  height: 190px;
+                  
+                  padding: 10px;
+  
+                }
+            }
+    
+            .card-back {
+
+                
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+  
+                transform: rotateY(180deg); /* Voltea la cara trasera de la tarjeta */
+  
+                .WebButton{
+                  
+                  height: auto;
+                  width: 100%;
+  
+                  border: 1px solid #212121;;
+                  border-radius: 15px;
+  
+                 
+  
+                  a{
+  
+                    text-decoration: none;
+                  }
+  
+                }
+  
+            }
+        }
+    
+        &:hover .card-inner {
+            transform: rotateY(180deg); /* Rota la tarjeta en el eje Y al hacer hover */
+        }
       }
+
+      .aboutProjectList{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
+        
+        .aboutTitleProject{
+
+        
+          text-align: center;
+
+         
+
+        }
+      }
+
     }
+
 
   }
     
@@ -150,15 +179,19 @@
     
     
     width: 100%;
+    height: auto;
 
-    display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+   
+
+   /*  display: grid;
+     grid-template-columns: repeat(3, minmax(100px, 1fr)); 
     gap: 20px;
 
-    justify-content: center;  
+    justify-content: center;   */
 
     .wrapperProject{
 
+    
      
       
       .wrapperTittleProject{
@@ -183,13 +216,17 @@
 
       .aboutProject{ 
         
+        width: 100%;
+        height: 200px; 
+
         display: flex;
+        flex-direction: column;
+
 
         height: 150px;
     
 
-        border: 1px solid rgb(247, 75, 8);
-
+      
         .card {
     
           position: relative;
@@ -244,7 +281,7 @@
                   
   
                   /* background-color: #212121; */
-                  background-color: red;
+                  
                   border: 1px solid white;
                   border-radius: 10px;
                   
@@ -292,6 +329,16 @@
               transform: rotateY(180deg); /* Rota la tarjeta en el eje Y al hacer hover */
           }
         }
+
+        .aboutProjectList{
+
+          width: 50%;
+
+          margin-left: 200px;
+
+        
+
+        }
       }
       
 
@@ -313,9 +360,7 @@
 
   .wrapperProject{
 
-    border: 1px solid rgb(17, 235, 28);
 
-    
 
     .wrapperTittleProject{
 
@@ -344,8 +389,8 @@
   
         position: relative;
   
-        width: 179px; 
-        height: 179px;
+        width: 220px; 
+        height: 210px;
   
         perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
         margin: 20px;

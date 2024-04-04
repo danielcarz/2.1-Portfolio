@@ -53,12 +53,16 @@ export const CardUI = (
 
                     </div>
 
-                    <div>
-                        <h2>About Project</h2>
+                    <div className="aboutProjectList">
+                        
+                        <h2 className="aboutTitleProject" >Acerca del Proyecto</h2>
                         <ul>
-                            <li>Clean Code</li>
+                            <li>Codigo limpio</li>
+                            <li>Uso de openWeather API</li>
+                            <li>React Hooks</li>
                         </ul>
                     </div>
+
                 </div>
 
             </div>
