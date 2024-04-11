@@ -16,7 +16,13 @@
     "cardThreeTitle" : { "cardThree-title" : "Optimization and maintenance" },
     "cardThreeText" : { "cardThree-text" : "Optimización y mantenimiento web, con experiencia en mejorar el rendimiento, realizar pruebas de compatibilidad y asegurar la integridad de los datos."},
 
-    "recentProject" : { "recent-project" : "Recent projects" }
+    "recentProject" : { "recent-project" : "Recent projects" },
+
+    "Abilities" : { "Abilitie" : "Abilities"},
+
+    "footerMessage" : { "footer-mjs" : "I guarantee the operation and evolution of your web projects!"},
+    "footerEmail" : { "footer-email" : "Send a message" }
+
 
 
 

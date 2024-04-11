@@ -17,5 +17,10 @@
     "cardThreeText" : { "cardThree-text" : "Web optimization and maintenance, with experience in enhancing performance, conducting compatibility tests, and ensuring data integrity."},
 
 
-    "recentProject" : { "recent-project" : "Proyectos recientes" }
+    "recentProject" : { "recent-project" : "Proyectos recientes" },
+
+    "Abilities" : { "Abilitie" : "Habilidades"}, 
+
+    "footerMessage" : { "footer-mjs" : "¡Garantizo el funcionamiento y la evolución de tus proyectos web!"},
+    "footerEmail" : { "footer-email" : "Escribeme un mensaje" }
 }

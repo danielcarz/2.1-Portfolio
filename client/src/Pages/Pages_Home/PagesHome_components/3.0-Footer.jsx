@@ -11,7 +11,7 @@ import '../../../Sass/SassComponents/SassParentsComponents/3.0-Footer.scss';
 
 export const Footer = () => {  
     
-    const { gitHubImage, linkedinImage, whatsappImage, cvImage, curriculumVitae } = useContext( Contex );
+    const { gitHubImage, linkedinImage, whatsappImage, cvImage, curriculumVitae, t } = useContext( Contex );
 
     return(
        <footer className="footerContainer">
@@ -19,7 +19,7 @@ export const Footer = () => {
             <section className="footerWrapper one" >
 
                 <div className="wrapperInfo" >
-                    <h2 className="footerTitle"> ¡Garantizo el funcionamiento y la evolución de tus proyectos web!" </h2>
+                    <h2 className="footerTitle"> { t( "footerMessage.footer-mjs"  ) } </h2>
  
                 </div> 
 
