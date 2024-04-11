@@ -8,12 +8,12 @@ import { Contex } from '../../Hooks/Contex/CreateContext';
 import '../../Sass/SassComponents/UiComponents/Navbar.scss';
 
 export const Navbar = () => {
+ 
+   const { linkedinImage, gitHubImage, cvImage, curriculumVitae,  dIcon, cIcon, lightDark, isTrue, setIsTrue, toggle,  t, i18n,  isSpanish, setIsSpanish, toggleLanguage    } = useContext( Contex );
 
-   const { linkedinImage, gitHubImage, cvImage, curriculumVitae, /* dc, */ dIcon, cIcon,   lightDark,   isTrue, setIsTrue, toggle  } = useContext( Contex );
+    console.log( isSpanish )
 
-    
-
-   const  changeColorInterface = () => {
+  /*  const  changeColorInterface = () => {
         
     if( isTrue ){
         toggle();
@@ -24,6 +24,35 @@ export const Navbar = () => {
     }
     
    }
+
+   const  changeLanguage = () => {
+        
+        toggle() 
+
+        if( isTrue ){
+            i18n.changeLanguage("en")
+        }else{
+            i18n.changeLanguage("es")
+        }
+    
+   } */
+
+
+    const changeColorInterface = () => {
+        toggle(); 
+    };
+
+    const changeLanguage = () => {
+
+        toggleLanguage();
+
+        if ( isSpanish ) {
+            i18n.changeLanguage("en"); 
+        } else {
+            
+            i18n.changeLanguage("es"); 
+        }
+    };
 
     return (
         <nav className='navbar' >
@@ -58,7 +87,13 @@ export const Navbar = () => {
             <div className='social-Wrapper'>
 
                 <button onClick={ changeColorInterface } className='buttonMode' > <img src= { lightDark } alt="" /> </button>
- 
+
+                <button className='changelanguageButton' onClick={ changeLanguage }
+
+                    > 
+                        ES 
+                </button> 
+
                 <figure className='socialEmoticon-wrapper' >
 
                     <a  target="_blank" rel="noopener noreferrer"  href='https://github.com/danielcarz'>  <img src= { gitHubImage } alt="d icon"/> </a>

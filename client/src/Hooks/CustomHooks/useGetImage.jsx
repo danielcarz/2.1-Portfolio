@@ -34,8 +34,7 @@ import reactpIcon from '../../public/assets/technologyIcons/react.png';
  
 export const useGetImage = () => {  
 
-    return {
-        //projects
+    return {        //projects
        weatherImage: weatherApp,
 
        //social media 

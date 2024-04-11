@@ -15,9 +15,9 @@ import '../../Sass/SassPages/1.0-Home.scss';
 export const PageHome = () => {
 
     const { isTrue } = useContext( Contex );
-    console.log( isTrue )
+    //console.log( isTrue )
 
-
+ 
 
     return(
 

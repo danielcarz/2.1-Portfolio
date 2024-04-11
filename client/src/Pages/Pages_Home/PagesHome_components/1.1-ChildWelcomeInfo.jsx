@@ -1,22 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
+
+//contex
+import { Contex } from "../../../Hooks/Contex/CreateContext";
 
 //styles
 import '../../../Sass/SassComponents/SassChildComponents/1.1-ChildWelcomeInfo.scss';
 
 export const ChildWelcomeInfo = () => {
 
+    const { t } = useContext( Contex );
 
     return(
         
         <section className="welcomeInfoWrapper" >
 
-            <h1 className="tittle" >Bienvenido </h1>
+            <h1 className="tittle" > { t(  "welcome.welcome" ) } </h1>
 
             <p>
 
-                ¡Hola! Soy Daniel, un apasionado desarrollador web fullStack con experiencia en la 
-                creación de aplicaciones web responsivas, dinámicas y funcionales. Mi enfoque principal
-                es escribir código limpio y eficiente utilizando tecnologías modernas.
+                { t ( "personalIntroduction.personal-introduction" ) }
                   
             </p>
             

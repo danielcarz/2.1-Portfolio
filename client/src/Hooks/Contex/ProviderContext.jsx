@@ -1,17 +1,30 @@
 import { Contex } from "./CreateContext";
 
 //custom hook
-import { useGetImage, useBoolean } from '../CustomHooks/index';
+import { useGetImage, useBoolean, useChangeLanguage } from '../CustomHooks/index';
+
+//translation
+import { useTranslation } from 'react-i18next';
 
 
 
 export const ContextProvider = ( { children } ) => {
+
+
     
     //boolean
     const { isTrue, setIsTrue, toggle } = useBoolean();
 
+    //change languague
+    const { toggleLanguage, isSpanish, setIsSpanish } = useChangeLanguage()
 
-    //images Projects
+    //translation
+    const[ t, i18n ] = useTranslation( "global" )
+    
+    //const { toggle, isTrue } = useContext( Contex );
+
+
+    //images Projects 
     const { 
             weatherImage,
 
@@ -95,7 +108,14 @@ export const ContextProvider = ( { children } ) => {
                     //boolean
                     isTrue, 
                     setIsTrue,
-                    toggle 
+                    toggle,
+                    
+                    //translations
+                    t,
+                    i18n,
+                    isSpanish,
+                    setIsSpanish,
+                    toggleLanguage, 
 
 
 

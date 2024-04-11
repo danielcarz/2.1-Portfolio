@@ -2,13 +2,13 @@ import React, { useContext } from 'react';
 
 import { Contex } from '../Hooks/Contex/CreateContext';
 
-import { useTranslation } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
 
 export const TestingComponent = () => {
-
-    const[ t, i18n ] = useTranslation( "global" )
+ 
     
-    const { toggle, isTrue } = useContext( Contex );
+    
+    const { toggle, isTrue, t, i18n  } = useContext( Contex );
 
     return(
 
