@@ -3,10 +3,10 @@ import React from "react";
 import {  Routes, Route, } from "react-router-dom";
 
 //context
-import { ContextProvider } from '../Components/Hooks/Contex/ProviderContext'; 
+import { ContextProvider } from '../GeneralComponents/Hooks/Contex/ProviderContext'; 
 
 //pages
-import { PageHome } from '../Pages/index';
+import { PageHome } from '../Pages/index'; 
 
 export const AppRoutes = () => {
 

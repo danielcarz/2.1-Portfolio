@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 
-import { Contex } from '../../../Components/Hooks/Contex/CreateContext';
+import { Contex } from '../../../GeneralComponents/Hooks/Contex/CreateContext';
 
 //childs
-import { EmailSystem } from '../../../Components/ParentsComponents/ChildsComponents/3.1-EmailSystem';
+import { EmailSystem } from '../../../GeneralComponents/ParentsComponents/ChildsComponents/3.1-EmailSystem';
   
 
 //sass

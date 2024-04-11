@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 
 //Contex
-import { Contex } from '../../../Components/Hooks/Contex/CreateContext';
+import { Contex } from '../../../GeneralComponents/Hooks/Contex/CreateContext';
  
 
-//sass
+//sass 
 import '../../../Sass/SassComponents/SassParentsComponents/4.0-Habilities.scss';
 
 export const Habilities = () => {  

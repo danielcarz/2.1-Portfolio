@@ -1,16 +1,16 @@
 import React, { useState, useContext } from "react";
 
 //context
-import { Contex } from "../../Components/Hooks/Contex/CreateContext";
+import { Contex } from "../../GeneralComponents/Hooks/Contex/CreateContext";
 
 // components
 
-import { Navbar } from "../../Components/UiComponentes/Navbar";
+import { Navbar } from "../../GeneralComponents/UiComponentes/Navbar";
 import { Welcome, MyProjects, Habilities, Footer } from './PagesHome_components/index'; //parents components
 
 //styles
 import '../../Sass/SassPages/1.0-Home.scss';
-
+ 
 export const PageHome = () => {
 
     const { isTrue } = useContext( Contex );

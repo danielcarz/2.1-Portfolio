@@ -1,3 +1,5 @@
+//UI COMPONENTS
+
 //carousel
 export * from './Carousel.jsx';
 

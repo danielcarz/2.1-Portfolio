@@ -1,8 +1,8 @@
 import React from "react";
 
 //child Component
-import { ChildMyProjectCards } from '../../../Components/ParentsComponents/ChildsComponents/2.1-ChildMyProjectCards';
-
+//import { ChildMyProjectCards } from '../../../Components/ParentsComponents/ChildsComponents/2.1-ChildMyProjectCards';
+import { ChildMyProjectCards } from './2.1-ChildMyProjectCards';
 //styles
 import '../../../Sass/SassComponents/SassParentsComponents/2.0-MyProjects.scss';
 

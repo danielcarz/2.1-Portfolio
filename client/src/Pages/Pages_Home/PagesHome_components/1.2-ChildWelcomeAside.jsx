@@ -4,7 +4,7 @@ import React from "react";
 import '../../../Sass/SassComponents/SassChildComponents/1.2-ChildWelcomeAside.scss';
 
 //ui Components
-import { CarouselUI } from '../../UiComponentes/index.js';
+import { CarouselUI } from '../../../GeneralComponents/UiComponentes/index';
 
 export const ChildWelcomeAside = () => { 
 
