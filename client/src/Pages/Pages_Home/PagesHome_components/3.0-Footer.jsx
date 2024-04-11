@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 
-import { Contex } from '../Hooks/Contex/CreateContext';
+import { Contex } from '../../../Components/Hooks/Contex/CreateContext';
 
 //childs
-import { EmailSystem } from './ChildsComponents/index';
+import { EmailSystem } from '../../../Components/ParentsComponents/ChildsComponents/3.1-EmailSystem';
   
 
-//sass 
+//sass
 import '../../../Sass/SassComponents/SassParentsComponents/3.0-Footer.scss';
 
 export const Footer = () => {  

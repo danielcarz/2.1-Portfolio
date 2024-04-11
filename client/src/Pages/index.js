@@ -1,2 +1,2 @@
 //page one
-export * from './1.0-Home';
+export * from './Pages_Home/1.0-Home';
