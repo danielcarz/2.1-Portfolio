@@ -1,9 +1,9 @@
 import React from "react";
 
 //childs componentes
-//import {  ChildWelcomeAside } from '../../../Components/ParentsComponents/ChildsComponents/index';
 import { ChildWelcomeInfo } from './1.1-ChildWelcomeInfo';
-import { ChildWelcomeAside } from './1.2-ChildWelcomeAside'
+import { ChildWelcomeAside } from './1.2-ChildWelcomeAside';
+
 //styles
 import '../../../Sass/SassComponents/SassParentsComponents/1.0-Welcome.scss';
 

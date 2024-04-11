@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 
 import { Contex } from '../../../Hooks/Contex/CreateContext';
 
-//childs
-import { EmailSystem } from '../../../GeneralComponents/ParentsComponents/3.1-EmailSystem';
+//UI components
+import { EmailSystem } from '../../../GeneralComponents/UiComponentes/index';
   
 
 //sass
@@ -27,45 +27,7 @@ export const Footer = () => {
             </section>
 
            <section  className="footerWrapper two"  >
-
-                {/* <div className="wrapperSocialInfo">
-                    
-                    <section className="socialInfo" >
-
-                        <h3 className="socialTittle" >  <b> Gmail </b>  </h3>
-                        <a   className="cvIcon" target="_blank" rel="noopener noreferrer" href="dcz9412@gmail.com" >  <b> dcz9412@gmail.com </b></a> 
-
-                    </section> 
-                    
-                    <section className="socialInfo" >
-                        <h3 className="socialTittle" >  <b> Curriculum </b>  </h3>
-
-                        <p className="wrapperCv" >
-                             
-                            <a   className="cvIcon" target="_blank" rel="noopener noreferrer"  href=  { curriculumVitae } >  <b> Daniel Carmona Zapata: </b>    <img src= { cvImage } alt="" /> </a>
-                        </p>
-                    </section>
-
-                    <section className="socialInfo" >
-                        
-                        <h3 className="socialTittle"> <b> Contáctame </b>  </h3>
-                       
-                        <a  target="_blank" rel="noopener noreferrer"  href='https://wa.me/+573126626051'> ( +57 ) 312 6626 051 </a>    
-
-                    </section>
-                
-                
-                
-                </div> 
-
-                <button onClick={ async () => {
-
-                   const res = await fetch(`http://localhost:3009`);
-                   const resToJson = await res.json();
-                   
-                   console.log(resToJson); 
-
-                } } >Click to server</button>   */}
+               
 
                 <EmailSystem></EmailSystem>
 

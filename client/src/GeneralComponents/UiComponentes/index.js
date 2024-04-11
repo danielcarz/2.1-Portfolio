@@ -1,7 +1,9 @@
 //UI COMPONENTS
 
-//carousel
-export * from './Carousel.jsx';
+export * from './Navbar';
 
-//card
-export * from './Card.jsx';
+export * from './Card';
+
+export * from './Carousel';
+
+export * from './EmailSystem';
