@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 //contex
-import { Contex } from '../../../GeneralComponents/Hooks/Contex/CreateContext';
+import { Contex } from '../../../Hooks/Contex/CreateContext';
 
 //ui components
 import { CardUI } from '../../../GeneralComponents/UiComponentes/Card'; 

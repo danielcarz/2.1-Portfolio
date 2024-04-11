@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 //styles
-import '../../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
+import '../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
 
 export const EmailSystem = () => { 
   const form = useRef();

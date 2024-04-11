@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 
 //context
-import { Contex } from "../../GeneralComponents/Hooks/Contex/CreateContext";
+import { Contex } from "../../Hooks/Contex/CreateContext";
 
 // components
 

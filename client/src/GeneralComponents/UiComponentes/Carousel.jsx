@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 //context
-import { Contex } from '../Hooks/Contex/CreateContext';
+import { Contex } from '../../Hooks/Contex/CreateContext';
 
 
 //styles

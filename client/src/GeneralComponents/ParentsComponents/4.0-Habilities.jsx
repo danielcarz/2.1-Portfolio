@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import { Contex } from '../Hooks/Contex/CreateContext';
+import { Contex } from '../../Hooks/Contex/CreateContext';
  
 
 //sass

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 
 //context
-import { Contex } from '../Hooks/Contex/CreateContext';
+import { Contex } from '../../Hooks/Contex/CreateContext';
 
 //styles
 import '../../Sass/SassComponents/UiComponents/Navbar.scss';
