@@ -4,9 +4,10 @@ import React, { useState, useContext } from "react";
 import { Contex } from "../../Hooks/Contex/CreateContext";
 
 // components
-
 import { Navbar } from "../../GeneralComponents/UiComponentes/Navbar";
 import { Welcome, MyProjects, Habilities, Footer } from './PagesHome_components/index'; //parents components
+
+
 
 //styles
 import '../../Sass/SassPages/1.0-Home.scss';

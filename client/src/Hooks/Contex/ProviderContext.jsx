@@ -92,6 +92,7 @@ export const ContextProvider = ( { children } ) => {
                     nodepIcon,
                     reactpIcon,
 
+                    //boolean
                     isTrue, 
                     setIsTrue,
                     toggle 

@@ -6,7 +6,7 @@ import {  Routes, Route, } from "react-router-dom";
 import { ContextProvider } from '../Hooks/Contex/ProviderContext'; 
 
 //pages
-import { PageHome } from '../Pages/index'; 
+import { PageHome, TestingComponent } from '../Pages/index'; 
 
 export const AppRoutes = () => {
 
@@ -15,6 +15,7 @@ export const AppRoutes = () => {
             
             <Routes>
                 <Route path="/" element= { <PageHome></PageHome> }></Route>
+                <Route path="/test" element= { <TestingComponent> </TestingComponent> }></Route>
 
             </Routes>
         
