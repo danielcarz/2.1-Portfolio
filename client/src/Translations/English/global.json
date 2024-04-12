@@ -14,7 +14,7 @@
     "cardTwoText" : { "cardTwo-text" : "Backend developer specializing in implementing business logic, user authentication, maintaining server security, and database performance." },
     
     "cardThreeTitle" : { "cardThree-title" : "Optimization and maintenance" },
-    "cardThreeText" : { "cardThree-text" : "Optimización y mantenimiento web, con experiencia en mejorar el rendimiento, realizar pruebas de compatibilidad y asegurar la integridad de los datos."},
+    "cardThreeText" : { "cardThree-text" : "Web optimization and maintenance, with experience in improving performance, conducting compatibility tests, and ensuring data integrity."},
 
     "recentProject" : { "recent-project" : "Recent projects" },
 
