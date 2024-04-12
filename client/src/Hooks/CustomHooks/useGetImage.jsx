@@ -9,7 +9,7 @@ import cvImage from '../../public/assets/SocialMedia/cv.png';
 import whatsappImage  from '../../public/assets/SocialMedia/whatsapp.png';
 
 //cv
-import curriculumVitae from '../../public/assets/SocialMedia/CV_ENGL_0.2.1.pdf';
+import curriculumVitae from '../../public/assets/SocialMedia/CV_ENGL_LETTER_4.0.pdf';
  
 
 //carousel
