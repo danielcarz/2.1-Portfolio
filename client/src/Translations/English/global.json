@@ -1,0 +1,29 @@
+{
+
+    "header" : { "hello-world": "hello world forn English" },
+
+    "sectionTwo": { "section-two": "this is the section two" },
+
+    "welcome" : { "welcome" :"Welcome"  },
+    "personalIntroduction": { "personal-introduction" : "Hello! I'm Daniel, a passionate fullStack web developer with experience in creating responsive, dynamic, and functional web applications. My main focus is on writing clean and efficient code using modern technologies."},
+
+    "cardOneTitle" : { "card-one-title" : "Optimal experiences for all devices."  },
+    "cardOneText" : { "cardOne-Text" : "I guarantee optimal experiences on all devices, offering consistency and accessibility for every user." },
+
+    "cardTwoTitle" : { "cardTwo-title" : "Backend development" },
+    "cardTwoText" : { "cardTwo-text" : "Backend developer specializing in implementing business logic, user authentication, maintaining server security, and database performance." },
+    
+    "cardThreeTitle" : { "cardThree-title" : "Optimization and maintenance" },
+    "cardThreeText" : { "cardThree-text" : "Optimización y mantenimiento web, con experiencia en mejorar el rendimiento, realizar pruebas de compatibilidad y asegurar la integridad de los datos."},
+
+    "recentProject" : { "recent-project" : "Recent projects" },
+
+    "Abilities" : { "Abilitie" : "Abilities"},
+
+    "footerMessage" : { "footer-mjs" : "I guarantee the operation and evolution of your web projects!"},
+    "footerEmail" : { "footer-email" : "Send a message" }
+
+
+
+
+} 

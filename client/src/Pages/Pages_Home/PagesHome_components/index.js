@@ -1,4 +1,4 @@
-//PARENTS COMPONENTS
+//PageHome's Components
 
 //WELCOME
 export * from './1.0-Welcome';

@@ -5,11 +5,15 @@ import emailjs from '@emailjs/browser';
 import { Contex } from '../../Hooks/Contex/CreateContext';
 
 //styles
-import '../../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
+import '../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
 
 export const EmailSystem = () => { 
 
+<<<<<<< HEAD:client/src/Components/ParentsComponents/ChildsComponents/3.1-EmailSystem.jsx
   const { isTrue } = useContext( Contex );
+=======
+  const {t } = useContext( Contex );
+>>>>>>> testing:client/src/GeneralComponents/UiComponentes/EmailSystem.jsx
 
   const form = useRef();
 
@@ -33,7 +37,7 @@ export const EmailSystem = () => {
   return (
     <form className='formContainer' ref={form} onSubmit={sendEmail} style={{ backgroundColor: 'none'  }}>
       
-      <h2> Dejame un mensaje </h2>
+      <h2> { t( "footerEmail.footer-email" ) } </h2>
 
      {/*  <label className='label'>Name</label>
       <input  className='input' type="text" name="user_name" />

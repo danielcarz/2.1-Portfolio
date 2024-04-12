@@ -3,10 +3,10 @@ import React from "react";
 import {  Routes, Route, } from "react-router-dom";
 
 //context
-import { ContextProvider } from '../Components/Hooks/Contex/ProviderContext'; 
+import { ContextProvider } from '../Hooks/Contex/ProviderContext'; 
 
 //pages
-import { PageHome } from '../Pages/index';
+import { PageHome, TestingComponent } from '../Pages/index'; 
 
 export const AppRoutes = () => {
 
@@ -15,6 +15,7 @@ export const AppRoutes = () => {
             
             <Routes>
                 <Route path="/" element= { <PageHome></PageHome> }></Route>
+                <Route path="/test" element= { <TestingComponent> </TestingComponent> }></Route>
 
             </Routes>
         

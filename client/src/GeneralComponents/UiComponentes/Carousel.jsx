@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 //context
-import { Contex } from '../Hooks/Contex/CreateContext';
+import { Contex } from '../../Hooks/Contex/CreateContext';
 
 
 //styles
@@ -13,7 +13,7 @@ import '../../Sass/SassComponents/UiComponents/Carousel.scss';
 
 export const  CarouselUI =  () =>  {
 
-    const { nodeImage, maintenanceImage, giftResponsive } = useContext( Contex );
+    const { nodeImage, maintenanceImage, giftResponsive, t } = useContext( Contex );
  
 
     return (  
@@ -44,11 +44,11 @@ export const  CarouselUI =  () =>  {
 
               <div className="aboutTech">
 
-                <h5> Experiencias óptimas para todos los dispositivos </h5>
+                <h5>  { t( "cardOneTitle.card-one-title" ) } </h5>
 
                 <p> 
-                    Garantizo experiencias óptimas en todos los dispositivos, ofreciendo
-                    consistencia y accesibilidad para cada usuario.
+                    { t( "cardOneText.cardOne-Text" ) }
+                    
                 </p>
 
               </div> 
@@ -77,10 +77,10 @@ export const  CarouselUI =  () =>  {
 
               <div className="aboutTech">
 
-                <h5> Desarrollo Backend </h5>
+                <h5> { t( "cardTwoTitle.cardTwo-title" ) } </h5>
 
                 <p> 
-                  Desarrollador backend en implementación de lógica de negocio, autenticación de usuarios, mantener la seguridad y el rendimiento del servidor y la base de datos.
+                  { t( "cardTwoText.cardTwo-text"  ) }
                 </p>
 
               </div> 
@@ -109,11 +109,10 @@ export const  CarouselUI =  () =>  {
 
               <div className="aboutTech">
 
-                <h5> optimización y mantenimiento  </h5>
+                <h5> { t( "cardThreeTitle.cardThree-title"  ) } </h5>
 
                 <p> 
-
-                  Optimización y mantenimiento web, con experiencia en mejorar el rendimiento, realizar pruebas de compatibilidad y asegurar la integridad de los datos.
+                   { t(  "cardThreeText.cardThree-text" ) }
                 </p>
 
               </div> 

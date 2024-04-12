@@ -1,0 +1,26 @@
+{
+
+    "header" : { "hello-world": "hola mundo desde español" },
+
+    "sectionTwo": { "section-two": "Esta es la seccion dos" },
+
+    "welcome" : { "welcome" :"Bienvenido"  },
+    "personalIntroduction": { "personal-introduction" : "¡Hola! Soy Daniel, un apasionado desarrollador web fullStack con experiencia en la creación de aplicaciones web responsivas, dinámicas y funcionales. Mi enfoque principal es escribir código limpio y eficiente utilizando tecnologías modernas."},
+
+    "cardOneTitle" : { "card-one-title" : "Experiencias óptimas para todos los dispositivos"  },
+    "cardOneText" : { "cardOne-Text" : " Garantizo experiencias óptimas en todos los dispositivos, ofreciendo consistencia y accesibilidad para cada usuario." },
+
+    "cardTwoTitle" : { "cardTwo-title" : "Desarrollo backend" },
+    "cardTwoText" : { "cardTwo-text" :"Desarrollador backend en implementación de lógica de negocio, autenticación de usuarios, mantener la seguridad y el rendimiento del servidor y la base de datos." },
+
+    "cardThreeTitle" : { "cardThree-title" : "Optimización y mantenimiento" },
+    "cardThreeText" : { "cardThree-text" : "Web optimization and maintenance, with experience in enhancing performance, conducting compatibility tests, and ensuring data integrity."},
+
+
+    "recentProject" : { "recent-project" : "Proyectos recientes" },
+
+    "Abilities" : { "Abilitie" : "Habilidades"}, 
+
+    "footerMessage" : { "footer-mjs" : "¡Garantizo el funcionamiento y la evolución de tus proyectos web!"},
+    "footerEmail" : { "footer-email" : "Escribeme un mensaje" }
+}

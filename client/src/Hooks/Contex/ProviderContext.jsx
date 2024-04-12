@@ -1,17 +1,30 @@
 import { Contex } from "./CreateContext";
 
 //custom hook
-import { useGetImage, useBoolean } from '../CustomHooks/index';
+import { useGetImage, useBoolean, useChangeLanguage } from '../CustomHooks/index';
+
+//translation
+import { useTranslation } from 'react-i18next';
 
 
 
 export const ContextProvider = ( { children } ) => {
+
+
     
     //boolean
     const { isTrue, setIsTrue, toggle } = useBoolean();
 
+  
+    
 
-    //images Projects
+    //translation
+    const[ t, i18n ] = useTranslation( "global" )
+    
+    //
+
+
+    //images Projects 
     const { 
             weatherImage,
 
@@ -39,18 +52,30 @@ export const ContextProvider = ( { children } ) => {
 
             dc,
 
+<<<<<<< HEAD:client/src/Components/Hooks/Contex/ProviderContext.jsx
             lightDark,  
+=======
+            lightDark,
             
-            //technology icons
-            bootstrapIcon,
-            csspIcon,
+            //languagues mode
+            enIcon,
+            esIcon,  
+>>>>>>> testing:client/src/Hooks/Contex/ProviderContext.jsx
+            
+            //technology icons 
+            bootstrapIcon, 
+            csspIcon, 
             gitHubIcon,  
             jspIcon,
             mysqlpIcon,
             nodepIcon,
             reactpIcon, } = useGetImage();
-   
 
+
+    //change languague - image
+    const { toggleLanguage, isSpanish, setIsSpanish } = useChangeLanguage( ); 
+   
+ 
 
     return(
 
@@ -92,9 +117,21 @@ export const ContextProvider = ( { children } ) => {
                     nodepIcon,
                     reactpIcon,
 
+                    //boolean
                     isTrue, 
                     setIsTrue,
-                    toggle 
+                    toggle,
+                    
+                    //translations
+                    t,
+                    i18n,
+                    isSpanish,
+                    setIsSpanish,
+                    toggleLanguage,
+                    
+                    //languagues mode
+                    enIcon,
+                    esIcon,  
 
 
 

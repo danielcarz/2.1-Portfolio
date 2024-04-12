@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 
 //contex
-import { Contex } from '../../Hooks/Contex/CreateContext';
+import { Contex } from '../../../Hooks/Contex/CreateContext';
 
 //ui components
-import { CardUI } from '../../UiComponentes/Card'; 
+import { CardUI } from '../../../GeneralComponents/UiComponentes/index'; 
 
 
 //styles
