@@ -15,13 +15,13 @@ export const ContextProvider = ( { children } ) => {
     //boolean
     const { isTrue, setIsTrue, toggle } = useBoolean();
 
-    //change languague
-    const { toggleLanguage, isSpanish, setIsSpanish } = useChangeLanguage()
+  
+    
 
     //translation
     const[ t, i18n ] = useTranslation( "global" )
     
-    //const { toggle, isTrue } = useContext( Contex );
+    //
 
 
     //images Projects 
@@ -52,18 +52,26 @@ export const ContextProvider = ( { children } ) => {
 
             dc,
 
-            lightDark, 
+            lightDark,
             
-            //technology icons
-            bootstrapIcon,
-            csspIcon,
+            //languagues mode
+            enIcon,
+            esIcon,  
+            
+            //technology icons 
+            bootstrapIcon, 
+            csspIcon, 
             gitHubIcon,  
             jspIcon,
             mysqlpIcon,
             nodepIcon,
             reactpIcon, } = useGetImage();
-   
 
+
+    //change languague - image
+    const { toggleLanguage, isSpanish, setIsSpanish } = useChangeLanguage( ); 
+   
+ 
 
     return(
 
@@ -115,7 +123,11 @@ export const ContextProvider = ( { children } ) => {
                     i18n,
                     isSpanish,
                     setIsSpanish,
-                    toggleLanguage, 
+                    toggleLanguage,
+                    
+                    //languagues mode
+                    enIcon,
+                    esIcon,  
 
 
 

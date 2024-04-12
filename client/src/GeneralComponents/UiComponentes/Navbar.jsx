@@ -9,7 +9,7 @@ import '../../Sass/SassComponents/UiComponents/Navbar.scss';
 
 export const Navbar = () => {
  
-   const { linkedinImage, gitHubImage, cvImage, curriculumVitae,  dIcon, cIcon, lightDark, isTrue, setIsTrue, toggle,  t, i18n,  isSpanish, setIsSpanish, toggleLanguage    } = useContext( Contex );
+   const { linkedinImage, gitHubImage, cvImage, curriculumVitae,  dIcon, cIcon, lightDark, isTrue, setIsTrue, toggle,  t, i18n,  isSpanish, setIsSpanish, toggleLanguage,  esIcon,   enIcon } = useContext( Contex );
 
     console.log( isSpanish )
 
@@ -39,7 +39,7 @@ export const Navbar = () => {
 
 
     const changeColorInterface = () => {
-        toggle(); 
+        toggle();  
     };
 
     const changeLanguage = () => {
@@ -88,11 +88,7 @@ export const Navbar = () => {
 
                 <button onClick={ changeColorInterface } className='buttonMode' > <img src= { lightDark } alt="" /> </button>
 
-                <button className='changelanguageButton' onClick={ changeLanguage }
-
-                    > 
-                        ES 
-                </button> 
+                <button className='changelanguageButton' onClick={ changeLanguage }>    {isSpanish ? <img src={esIcon} alt="English Icon" /> : <img src={enIcon} alt="Spanish Icon" />}  </button> 
 
                 <figure className='socialEmoticon-wrapper' >
 

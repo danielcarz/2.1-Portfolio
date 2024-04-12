@@ -31,6 +31,11 @@ import jspIcon from '../../public/assets/technologyIcons/js.png';
 import mysqlpIcon from '../../public/assets/technologyIcons/mysql.png';
 import nodepIcon from '../../public/assets/technologyIcons/nodejs.png';
 import reactpIcon from '../../public/assets/technologyIcons/react.png';
+
+//language mode
+import esIcon from '../../public/assets/SocialMedia/spain.png';
+import enIcon from '../../public/assets/SocialMedia/english.png';
+ 
  
 export const useGetImage = () => {  
 
@@ -65,7 +70,11 @@ export const useGetImage = () => {
        jspIcon,
        mysqlpIcon,
        nodepIcon,
-       reactpIcon
+       reactpIcon,
+
+       //languages
+       esIcon,
+       enIcon 
 
 
 

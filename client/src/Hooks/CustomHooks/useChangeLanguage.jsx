@@ -3,26 +3,42 @@ import React, { useState } from "react";
 export const useChangeLanguage = ( initialValue = true ) => {
 
     
-    const [isSpanish, setIsSpanish] = useState(initialValue);
+    const [isSpanish, setIsSpanish] = useState( initialValue );
+    //const [ isconLanguage, setIconLanguage ] = useState ( esIcon );
 
-    const setTrue = () => setIsTrue(true);
-    const setFalse = () => setIsTrue(false);
+    console.log( "isSpanish" , isSpanish );
 
+    //let iconLanguage = enIcon;
+
+    
+    const toggleLanguage = () => {
+
+        setIsSpanish( ( prev ) => !prev ); 
+
+           
+    /*     setIconLanguage(isSpanish ? enIcon : esIcon);
+
+        console.log( 'icon is', isconLanguage );        */ 
+    
+    
+    };
+
+    console.log( isSpanish )
    
-    const toggleLanguage = () => setIsSpanish( ( prev ) => !prev );
-
-        console.log( 'is spanish', isSpanish )
-        //console.log( 'lighMode', isTrue )
+  
 
     return {
 
 
         //language mode 
         isSpanish,
-        setIsSpanish, 
+        setIsSpanish,
+        
+        //icon language
+        //iconLanguage,
         
         
-     
+        //togle
         toggleLanguage,
     }
 }
