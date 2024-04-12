@@ -16,7 +16,14 @@
     "cardThreeTitle" : { "cardThree-title" : "Optimization and maintenance" },
     "cardThreeText" : { "cardThree-text" : "Web optimization and maintenance, with experience in improving performance, conducting compatibility tests, and ensuring data integrity."},
 
+
     "recentProject" : { "recent-project" : "Recent projects" },
+    "aboutProject" : { "about-project" : "About Project" },
+
+    "cleanCode" : { "clean-code" : "Clean code"  },
+    "weatherApp" : { "weatherApp" : "Weather Api used" },
+    "reactHook" : { "react-hook" : "React Hooks used " },
+    
 
     "Abilities" : { "Abilitie" : "Abilities"},
 

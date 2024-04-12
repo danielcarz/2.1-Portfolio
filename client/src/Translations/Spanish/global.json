@@ -19,6 +19,13 @@
 
     "recentProject" : { "recent-project" : "Proyectos recientes" },
 
+    "aboutProject" : { "about-project" : "Acerca del proyecto" },
+
+    "cleanCode" : { "clean-code" : "Codigo limpio"  },
+    "weatherApp" : { "weatherApp" : "Uso de Weather Api " },
+    "reactHook" : { "react-hook" : " Uso de  React Hooks" },
+    
+
     "Abilities" : { "Abilitie" : "Habilidades"}, 
 
     "footerMessage" : { "footer-mjs" : "¡Garantizo el funcionamiento y la evolución de tus proyectos web!"},

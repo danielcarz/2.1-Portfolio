@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
+
+//context
+import { Contex } from '../../Hooks/Contex/CreateContext';
 
 //styles
 import '../../Sass/SassComponents/UiComponents/Cards.scss';
@@ -8,6 +11,7 @@ import '../../Sass/SassComponents/UiComponents/Cards.scss';
 export const CardUI = ( 
     
     
+    
     { 
         //weather Aplication
         weatherImage, 
@@ -15,6 +19,8 @@ export const CardUI = (
     
      
     } ) => {
+
+    const { t } = useContext( Contex );
 
 
     return(
@@ -55,11 +61,11 @@ export const CardUI = (
 
                     <div className="aboutProjectList">
                         
-                        <h2 className="aboutTitleProject" >Acerca del Proyecto</h2>
+                        <h2 className="aboutTitleProject" > { t( "aboutProject.about-project"  ) } </h2>
                         <ul>
-                            <li>Codigo limpio</li>
-                            <li>Uso de openWeather API</li>
-                            <li>React Hooks</li>
+                            <li> { t( "cleanCode.clean-code"  ) } </li>
+                            <li> { t( "weatherApp.weatherApp" ) } </li>
+                            <li> { t(  "reactHook.react-hook" ) } </li>
                         </ul>
                     </div>
 
