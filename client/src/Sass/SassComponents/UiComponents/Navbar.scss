@@ -70,6 +70,8 @@
     display: flex;
     justify-content: space-around;
 
+    border: 1px solid red;
+
     .buttonMode{
 
       border: none;
@@ -243,7 +245,7 @@
 
     .social-Wrapper{
 
-      max-width: 100%; // Adjust this value as needed
+      max-width: 1000px; // Adjust this value as needed
       height: auto;
 
       margin-right: 30px;
@@ -251,15 +253,16 @@
  
       display: flex;
 
+      border: 1px solid red;
+
     
 
       .buttonMode{
 
-        margin-right: 100px;
-        margin-top: 20px;
+        
   
-        border: none;
-  
+        border: none; 
+   
         background: none; 
   
         cursor: pointer;
@@ -278,7 +281,7 @@
       
       .changelanguageButton{
   
-        margin-right: 100px;
+        
         margin-top: 20px;
   
         border: none;
@@ -295,6 +298,23 @@
           height: 30px;
   
           margin: 10px;
+        }
+      }
+
+      .socialEmoticon-wrapper{
+
+        width: 150px;
+
+        display: flex;
+        
+
+        border: 1px solid yellow;
+
+        img{
+
+          width: 50px;
+
+          
         }
       }
     }

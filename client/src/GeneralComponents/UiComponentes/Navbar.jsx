@@ -11,33 +11,6 @@ export const Navbar = () => {
  
    const { linkedinImage, gitHubImage, cvImage, curriculumVitae,  dIcon, cIcon, lightDark, isTrue, setIsTrue, toggle,  t, i18n,  isSpanish, setIsSpanish, toggleLanguage,  esIcon,   enIcon } = useContext( Contex );
 
-    console.log( isSpanish )
-
-  /*  const  changeColorInterface = () => {
-        
-    if( isTrue ){
-        toggle();
-
-    }else{
-
-        toggle();
-    }
-    
-   }
-
-   const  changeLanguage = () => {
-        
-        toggle() 
-
-        if( isTrue ){
-            i18n.changeLanguage("en")
-        }else{
-            i18n.changeLanguage("es")
-        }
-    
-   } */
-
-
     const changeColorInterface = () => {
         toggle();  
     };
@@ -70,19 +43,8 @@ export const Navbar = () => {
                 <p> <b> DaniCode  </b> </p> 
 
             </Link> 
-
-        {/*    
-            <Link onClick={ changeColorInterface } to= "/" >
-                 
-                 <figure className = ' '>
-
-                     <img src= { lightDark } alt="logo" /> 
-                     
-                     
-                </figure>
-                
  
-            </Link>  */}
+        
     
             <div className='social-Wrapper'>
 
