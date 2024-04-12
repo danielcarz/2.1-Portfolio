@@ -40,7 +40,7 @@ export const Navbar = () => {
                      
                 </figure>
 
-                <p> <b> DaniCode  </b> </p> 
+                <p> <b> Dani developer  </b> </p> 
 
             </Link> 
  
