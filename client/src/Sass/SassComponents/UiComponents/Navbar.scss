@@ -92,6 +92,29 @@
         width: 30px;
       }
     }
+
+    .changelanguageButton{
+
+      border: none;
+
+      height: 40px;
+
+      position: absolute;
+      top: 50px; 
+      right: 5px; 
+    
+
+      background-color: none;
+      
+      border-radius: 100%;
+
+      cursor: pointer;
+
+      img{
+
+        width: 30px;
+      }
+    }
    
 
     .socialEmoticon-wrapper{
@@ -234,37 +257,43 @@
 
         margin-right: 100px;
         margin-top: 20px;
-
+  
         border: none;
   
         background: none; 
   
         cursor: pointer;
-
+  
         bottom: 60px ;
         
-
+  
+        
         img{
           width: 30px;
           height: 30px;
-
+  
           margin: 10px;
         }
       }
-     
       
-
-      .socialEmoticon-wrapper{
-
-        display: flex;
-        align-items: center; // Centra verticalmente las imágenes
+      .changelanguageButton{
+  
+        margin-right: 100px;
+        margin-top: 20px;
+  
+        border: none;
+  
+        background: none; 
+  
+        cursor: pointer;
+  
+        bottom: 60px ;
         
-        
-
+  
         img{
           width: 30px;
           height: 30px;
-
+  
           margin: 10px;
         }
       }
