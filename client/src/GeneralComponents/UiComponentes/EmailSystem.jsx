@@ -9,11 +9,8 @@ import '../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
 
 export const EmailSystem = () => { 
 
-<<<<<<< HEAD:client/src/Components/ParentsComponents/ChildsComponents/3.1-EmailSystem.jsx
   const { isTrue } = useContext( Contex );
-=======
   const {t } = useContext( Contex );
->>>>>>> testing:client/src/GeneralComponents/UiComponentes/EmailSystem.jsx
 
   const form = useRef();
 

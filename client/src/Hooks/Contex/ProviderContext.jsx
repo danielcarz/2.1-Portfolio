@@ -52,15 +52,11 @@ export const ContextProvider = ( { children } ) => {
 
             dc,
 
-<<<<<<< HEAD:client/src/Components/Hooks/Contex/ProviderContext.jsx
-            lightDark,  
-=======
             lightDark,
             
             //languagues mode
             enIcon,
             esIcon,  
->>>>>>> testing:client/src/Hooks/Contex/ProviderContext.jsx
             
             //technology icons 
             bootstrapIcon, 

@@ -8,24 +8,14 @@ import { Contex } from '../../../Hooks/Contex/CreateContext';
 import '../../../Sass/SassComponents/SassParentsComponents/4.0-Habilities.scss';
 
 export const Habilities = () => {  
-<<<<<<< HEAD:client/src/Components/ParentsComponents/4.0-Habilities.jsx
-     
-    const {  bootstrapIcon, csspIcon, gitHubIcon, jspIcon, mysqlpIcon, nodepIcon, reactpIcon } = useContext( Contex );
-=======
     
     const {  bootstrapIcon, csspIcon, gitHubIcon, jspIcon, mysqlpIcon, nodepIcon, reactpIcon, t } = useContext( Contex );
->>>>>>> testing:client/src/Pages/Pages_Home/PagesHome_components/4.0-Habilities.jsx
 
     return( 
 
     <section className="iconsContainer" >
-<<<<<<< HEAD:client/src/Components/ParentsComponents/4.0-Habilities.jsx
-
-        <h2> Habilidades: </h2>
-=======
         
         <h2>  { t( "Abilities.Abilitie" ) } </h2>
->>>>>>> testing:client/src/Pages/Pages_Home/PagesHome_components/4.0-Habilities.jsx
 
        <section className="iconsWrapper" >
 
