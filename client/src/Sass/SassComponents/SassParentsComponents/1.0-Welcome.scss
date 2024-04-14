@@ -23,33 +23,35 @@
     
   }
   
-  @mixin styles_tablets () {
-    width: 100%;
-    height: auto;
+@mixin styles_tablets () {
+  width: 100%;
+  height: auto;
 
-    display: flex;
-    justify-content: space-around;
-    
-   
-    
-  }
+  display: flex;
+  justify-content: space-around;
   
-  @mixin styles_desktop () {
-    width: 100%;
-    height: auto;
-
-     
-
-    display: flex;
-    justify-content: space-around;
-    
-    
-    
-  }
   
+  
+}
+
+@mixin styles_desktop () {
+  width: 100%;
+  
+
+    
+
+  display: flex;
+  
+
+}
+
 
   
   .welcomeInfoContainer{
+
+    border: 1px solid red;
+
+    padding: 20px;
 
       
     @include media-query($media_phone){

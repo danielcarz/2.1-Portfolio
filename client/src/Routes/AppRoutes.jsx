@@ -15,6 +15,8 @@ export const AppRoutes = () => {
             
             <Routes>
                 <Route path="/" element= { <PageHome></PageHome> }></Route>
+                
+
                 <Route path="/test" element= { <TestingComponent> </TestingComponent> }></Route>
 
             </Routes>

@@ -96,7 +96,7 @@
     height: 200px;
 
     h2{
-        margin: 30px;
+        
     }
 
 
@@ -139,16 +139,20 @@
 .iconsContainer{
 
 
-@include media-query($media_phone){ 
-    @include styles_phone();
-}
+    border: 1px solid red;
 
-@include media-query($media_tablet){
-    @include styles_tablets();
-}
+    padding: 20px;
 
-@include media-query($media_desktop){
-    @include styles_desktop();
+    @include media-query($media_phone){ 
+        @include styles_phone();
+    }
+
+    @include media-query($media_tablet){
+        @include styles_tablets();
+    }
+
+    @include media-query($media_desktop){
+        @include styles_desktop();
 }
 
 } 

@@ -50,9 +50,6 @@
 
     width: 50%;
     height: auto;
-
-    padding: 10px;
-
     
 
     .tittle{
@@ -69,6 +66,8 @@
 
 
 .welcomeInfoWrapper{
+
+ 
   
 
   @include media-query($media_phone){

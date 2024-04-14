@@ -39,7 +39,7 @@
   
   height: auto;
 
-  margin-left: 35px; 
+  
 
 }
   
@@ -48,7 +48,9 @@
   
   .myProjectsContainer{
 
-  
+    
+    padding: 20px;
+
     
   
     @include media-query($media_phone){

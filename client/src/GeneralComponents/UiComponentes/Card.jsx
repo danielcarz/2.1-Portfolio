@@ -26,7 +26,9 @@ export const CardUI = (
     return(
 
         <section className="cardsWrapper" >
- 
+            
+            {/* ABOUT PROJECTS  */}
+            {/* PROJECT # 1 */}
             <div  className="wrapperProject">
 
                 <div className="wrapperTittleProject" >
@@ -35,7 +37,8 @@ export const CardUI = (
                     
                 </div>
  
-
+                
+              
                 <div className="aboutProject" >
                     
                     <div className="card">
