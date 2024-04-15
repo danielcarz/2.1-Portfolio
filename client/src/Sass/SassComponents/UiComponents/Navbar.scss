@@ -106,16 +106,52 @@
       right: 10px;  
      
 
-      background-color: none;
+      background: none;
       
       border-radius: 100%;
 
       cursor: pointer;
 
-      img{
 
-        width: 30px;
+      figure{
+
+        display: flex;
+
+        
+        h6{
+
+          @keyframes fadeOut { 
+            0% { opacity: 1; }
+            100% { opacity: 0; } 
+          }
+          
+          animation: fadeOut 5s ease-in-out forwards;
+
+        
+         
+
+        } 
+        h6:hover {
+          opacity: 1;
+          animation: none; /* Detiene la animación al hacer hover */
+          transition: opacity 5s; /* Aplica una transición de 5 segundos al volver a su estado original */
+        }
+
+    
+
+        img{
+
+          width: 30px;
+        }
+
+      
+
       }
+     
+
+     
+
+     
     }
    
 

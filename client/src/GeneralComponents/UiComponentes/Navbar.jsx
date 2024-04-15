@@ -50,7 +50,7 @@ export const Navbar = () => {
 
                 <button onClick={ changeColorInterface } className='buttonMode' > <img src= { lightDark } alt="" /> </button>
 
-                <button className='changelanguageButton' onClick={ changeLanguage }>    {isSpanish ? <img src={esIcon} alt="English Icon" /> : <img src={enIcon} alt="Spanish Icon" />}  </button> 
+                <button className='changelanguageButton' onClick={ changeLanguage }>    {isSpanish ?  <figure> <h6> cambiar idioma </h6> <img src={esIcon} alt="English Icon" />  </figure> :  <figure>  <h6> change language </h6> <img src={enIcon} alt="Spanish Icon" /></figure> }  </button> 
 
                 <figure className='socialEmoticon-wrapper' >
 
