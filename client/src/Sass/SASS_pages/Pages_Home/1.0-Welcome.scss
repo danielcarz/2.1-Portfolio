@@ -10,7 +10,7 @@
     width: 100%;
     height: auto;
 
-    padding: 10px;
+    
 
     margin-bottom: 20px; 
  
@@ -24,21 +24,22 @@
   }
   
 @mixin styles_tablets () {
+
   width: 100%;
   height: auto;
 
   display: flex;
-  justify-content: space-around;
+  
+
+  border: 1px solid blue;
   
   
   
 }
 
 @mixin styles_desktop () {
-  width: 100%;
   
-
-    
+  width: 100%;
 
   display: flex;
   
@@ -49,7 +50,7 @@
   
   .welcomeInfoContainer{
 
-    border: 1px solid red;
+    
 
     padding: 20px;
 

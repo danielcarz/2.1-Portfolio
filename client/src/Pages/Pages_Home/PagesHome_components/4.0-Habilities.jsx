@@ -5,7 +5,6 @@ import { Contex } from '../../../Hooks/Contex/CreateContext';
  
 
 //sass 
-//import '../../../Sass/SassComponents/SassParentsComponents/4.0-Habilities.scss';
 import '../../../Sass/SASS_pages/Pages_Home/4.0-Habilities.scss';
 
 export const Habilities = () => {  

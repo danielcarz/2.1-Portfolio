@@ -7,7 +7,7 @@ import { EmailSystem } from '../../../GeneralComponents/UiComponentes/index';
   
 
 //sass
-//import '../../../Sass/SassComponents/SassParentsComponents/3.0-Footer.scss';
+
 import '../../../Sass/SASS_pages/Pages_Home/3.0-Footer.scss';
 
 export const Footer = () => {  

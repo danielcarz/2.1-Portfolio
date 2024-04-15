@@ -35,15 +35,10 @@ export const EmailSystem = () => {
     <form className='formContainer' ref={form} onSubmit={sendEmail} style={{ backgroundColor: 'none'  }}>
       
       <h2> { t( "footerEmail.footer-email" ) } </h2>
-
-     {/*  <label className='label'>Name</label>
-      <input  className='input' type="text" name="user_name" />
-
-      <label>Email</label>
-      <input className='input' type="email" name="user_email" /> */}
  
       
       <textarea name="message" className= { ( isTrue ) ? 'darkMode' : 'lightMode' } placeholder="Escribe tu mensaje aqui"/>
+      
       <input  className= { ( isTrue ) ? 'darkModeButton' : 'lightModeButton' }  type="submit" value="Send" />
 
     </form>

@@ -10,7 +10,7 @@
     margin-top: 10px;
 
     h2{
-        margin: 15px;
+       
     }
 
   
@@ -54,8 +54,13 @@
 
     height: 200px;
 
+    display: flex;
+    
+
     h2{
-        margin: 30px;
+        margin: 0;
+
+        border: 1px solid red;
     }
 
 
@@ -64,6 +69,8 @@
 
         display: flex;
         justify-content: space-around;
+
+        border: 1px solid red;
 
     
         .icon{
@@ -142,6 +149,7 @@
     border: 1px solid red;
 
     padding: 20px;
+   
 
     @include media-query($media_phone){ 
         @include styles_phone();

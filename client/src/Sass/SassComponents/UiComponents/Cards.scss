@@ -51,8 +51,8 @@
 
         
   
-        width: 210px; 
-        height: 179px;
+        width: 150px; 
+        height: 100px;
   
         perspective: 1000px; /* Añade perspectiva para el efecto de 3D */
         
@@ -76,10 +76,11 @@
     
             .card-front, .card-back {
   
-                padding: 10px;
+                
   
                 width: 100%;
                 height: 100%;
+
                 position: absolute;
                 backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
   
@@ -92,6 +93,7 @@
                 
                 width: 100%;
                 height: 100%;
+
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -106,9 +108,11 @@
                 img{
   
                   width: 200px;
-                  height: 190px;
-                  
+                  height: 120px;
+
                   padding: 10px;
+                  
+              
   
                 }
             }
@@ -177,10 +181,10 @@
 @mixin styles_tablets () {
     
     
-    width: 100%;
-    height: auto;
+    width: 52%;  
+    height: 250px;
 
-   
+    
 
    /*  display: grid;
      grid-template-columns: repeat(3, minmax(100px, 1fr)); 
@@ -248,10 +252,8 @@
               position: absolute;
     
               width: 100%;
-              height: auto;
-    
-              
-    
+              height: 180px; 
+        
               transition: transform 0.5s; /* Agrega una transición suave */
               transform-style: preserve-3d;
       
@@ -260,7 +262,8 @@
                   padding: 10px; */
     
                   width: 100%;
-                  height: auto;
+                  height: 180px; 
+
                   position: absolute;
                   backface-visibility: hidden; /* Oculta la cara trasera de la tarjeta */
   
@@ -272,7 +275,8 @@
               .card-front {
                   
                   width: 100%;
-                  height: auto;
+                  height: 180px; 
+
                   display: flex;
                   justify-content: center;
                   align-items: center;
@@ -289,7 +293,7 @@
     
                     width: 100%; 
                     height: auto;   
-                    
+                     
                    /*  padding: 10px; */
     
                   }
@@ -349,12 +353,15 @@
 @mixin styles_desktop () {
 
 
-  width: 30%;
+  max-width: 50%;
+  min-width: 25%;
 
  /*  display: grid;
   grid-template-columns: repeat(3, minmax(100px, 1fr));
   gap: 20px; */
 
+
+  border: 1px solid red;
   
 
   .wrapperProject{
