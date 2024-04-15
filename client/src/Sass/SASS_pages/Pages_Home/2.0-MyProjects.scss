@@ -51,6 +51,8 @@
     
     padding: 20px;
 
+    border: 1px solid red;
+
     
   
     @include media-query($media_phone){

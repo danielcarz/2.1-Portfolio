@@ -6,9 +6,10 @@ import { Contex } from '../../../Hooks/Contex/CreateContext';
 //ui components
 import { CardUI } from '../../../GeneralComponents/UiComponentes/index'; 
 
-
+ 
 //styles
-import '../../../Sass/SassComponents/SassChildComponents/2.1-ChildMyProjectCards.scss';
+//import '../../../Sass/SassComponents/SassChildComponents/2.1-ChildMyProjectCards.scss';
+import '../../../Sass/SASS_pages/Pages_Home/2.1-ChildMyProjectCards.scss'
 
 export const ChildMyProjectCards = () => { 
 

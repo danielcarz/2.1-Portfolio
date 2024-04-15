@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { Contex } from '../../Hooks/Contex/CreateContext';
 
 //styles
-import '../../Sass/SassComponents/SassChildComponents/3.1-EmailSystem.scss'
+import '../../Sass/SASS_pages/Pages_Home/3.1-EmailSystem.scss'; 
 
 export const EmailSystem = () => { 
 

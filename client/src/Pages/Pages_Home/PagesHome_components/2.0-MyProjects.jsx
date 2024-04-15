@@ -6,9 +6,10 @@ import { Contex } from "../../../Hooks/Contex/CreateContext";
 
 //child Component
 import { ChildMyProjectCards } from './2.1-ChildMyProjectCards';
-
+ 
 //styles
-import '../../../Sass/SassComponents/SassParentsComponents/2.0-MyProjects.scss';
+//import '../../../Sass/SassComponents/SassParentsComponents/2.0-MyProjects.scss';
+import '../../../Sass/SASS_pages/Pages_Home/2.0-MyProjects.scss'
 
 export const MyProjects = () => {
 

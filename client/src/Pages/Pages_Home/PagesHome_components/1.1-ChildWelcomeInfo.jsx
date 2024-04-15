@@ -4,7 +4,8 @@ import React, { useContext } from "react";
 import { Contex } from "../../../Hooks/Contex/CreateContext";
 
 //styles
-import '../../../Sass/SassComponents/SassChildComponents/1.1-ChildWelcomeInfo.scss';
+
+import '../../../Sass/SASS_pages/Pages_Home/1.1-ChildWelcomeInfo.scss';
 
 export const ChildWelcomeInfo = () => {
 
